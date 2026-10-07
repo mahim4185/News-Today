@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://USERNAME.github.io/REPO/</loc>
-    <lastmod>2026-10-07T08:21:48.136Z</lastmod>
+    <lastmod>2026-10-07T08:24:00.864Z</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://USERNAME.github.io/REPO/?cat=bangladesh</loc>
-    <lastmod>2026-10-07T08:21:48.136Z</lastmod>
+    <lastmod>2026-10-07T08:24:00.864Z</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://USERNAME.github.io/REPO/?cat=india</loc>
-    <lastmod>2026-10-07T08:21:48.136Z</lastmod>
+    <lastmod>2026-10-07T08:24:00.864Z</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://USERNAME.github.io/REPO/?cat=world</loc>
-    <lastmod>2026-10-07T08:21:48.136Z</lastmod>
+    <lastmod>2026-10-07T08:24:00.864Z</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://USERNAME.github.io/REPO/?cat=tech</loc>
-    <lastmod>2026-10-07T08:21:48.136Z</lastmod>
+    <lastmod>2026-10-07T08:24:00.864Z</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://USERNAME.github.io/REPO/?cat=business</loc>
-    <lastmod>2026-10-07T08:21:48.136Z</lastmod>
+    <lastmod>2026-10-07T08:24:00.864Z</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://USERNAME.github.io/REPO/?cat=sports</loc>
-    <lastmod>2026-10-07T08:21:48.136Z</lastmod>
+    <lastmod>2026-10-07T08:24:00.864Z</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://USERNAME.github.io/REPO/?cat=entertainment</loc>
-    <lastmod>2026-10-07T08:21:48.136Z</lastmod>
+    <lastmod>2026-10-07T08:24:00.864Z</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://USERNAME.github.io/REPO/?cat=science</loc>
-    <lastmod>2026-10-07T08:21:48.136Z</lastmod>
+    <lastmod>2026-10-07T08:24:00.864Z</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.8</priority>
   </url>
