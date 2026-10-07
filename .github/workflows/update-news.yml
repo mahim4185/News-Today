@@ -1,11 +1,15 @@
 name: 🤖 Update News (Auto Crawler)
 
 on:
-  # প্রতি ৩০ মিনিটে চলবে (UTC) — GitHub Actions schedule একটু দেরি করতে পারে
+  # প্রতি ঘণ্টায় ১৭ ও ৪৭ মিনিটে (UTC)
+  # ⚠️ :00 ও :30 এড়িয়ে চলা হয় — ওই সময়ে GitHub-এর লোড সবচেয়ে বেশি,
+  #    schedule রান দেরি হয় বা ড্রপ হয়ে যায়। তাই 17/47 ব্যবহার করা হয়েছে।
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '17,47 * * * *'
+
   # চাইলে GitHub থেকে manually চালাতে পারবেন (Actions → Run workflow)
   workflow_dispatch:
+
   # repo-তে push করলেও একবার চলবে
   push:
     branches: [main, master]
@@ -40,25 +44,59 @@ jobs:
           # Google News ফিডও চালু করতে চাইলে true করুন (বাণিজ্যিক সাইটে সতর্কতা দেখুন)
           USE_GOOGLE_NEWS: 'false'
 
-      - name: 🧠 AI summary (optional — GEMINI_API_KEY থাকলেই চলবে)
-        run: node scripts/ai-enhance.mjs || true
+      - name: ✍️ Rewrite news (কপিরাইট-নিরাপদ — নতুন করে লেখা)
+        run: node rewrite.mjs
         env:
+          # ফ্রি Gemini কি থাকলে সত্যিকারের রি-রাইট; না থাকলে অনুবাদ/নিয়ম-ভিত্তিক
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          REWRITE_MAX: ${{ vars.REWRITE_MAX || '150' }}
+          REWRITE_TARGET: ${{ vars.REWRITE_TARGET || 'bn' }}
+          MYMEMORY_EMAIL: ${{ vars.MYMEMORY_EMAIL || '' }}
+
+      - name: 🔒 বাইরের লিংক বন্ধ (noroute.js স্বয়ংক্রিয়ভাবে বসানো)
+        run: |
+          node -e "
+            const fs = require('fs');
+            const f = 'index.html';
+            let s = fs.readFileSync(f, 'utf8');
+            if (s.includes('noroute.js')) { console.log('ℹ️  noroute.js আগেই যোগ করা আছে'); }
+            else {
+              s = s.replace('</body>', '<script src=\"noroute.js\"></script>\n</body>');
+              fs.writeFileSync(f, s);
+              console.log('✅ index.html-এ noroute.js যোগ করা হলো');
+            }
+          "
 
       - name: 📄 Build sitemap / feed / robots
         run: node scripts/build-meta.mjs
         env:
           # GitHub Pages URL — নিজের অনুযায়ী বদলান
-          SITE_URL: ${{ vars.SITE_URL || 'https://USERNAME.github.io/REPO' }}
+          SITE_URL: ${{ vars.SITE_URL || 'https://news-today-bxkx.onrender.com' }}
 
       - name: 💾 Commit & push
         run: |
           git config user.name  "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          git add data/ sitemap.xml feed.xml robots.txt || true
+          git add -A data/ news.json rewritten.json index.html sitemap.xml feed.xml robots.txt 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "ℹ️  কোনো পরিবর্তন নেই — কমিট স্কিপ করা হলো"
-          else
-            git commit -m "🤖 auto: news update $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
+            exit 0
           fi
+          git commit -m "🤖 auto: news update $(date -u +'%Y-%m-%d %H:%M UTC')"
+
+          # ⚠️ checkout সবসময় detached HEAD-এ থাকে — তাই `git push` (খালি) কাজ করে না।
+          #    `origin HEAD:main` দিয়ে পুশ করতে হয়।
+          # ⚠️ অন্য কোনো রান মাঝখানে পুশ করলে non-fast-forward হয় — তাই rebase করে আবার চেষ্টা।
+          for i in 1 2 3; do
+            git fetch origin main
+            git rebase --abort 2>/dev/null || true
+            git rebase -X theirs origin/main
+            if git push origin HEAD:main; then
+              echo "✅ push সফল (চেষ্টা $i)"
+              exit 0
+            fi
+            echo "⚠️  push ব্যর্থ — ১০ সেকেন্ড পর আবার চেষ্টা $i"
+            sleep 10
+          done
+          echo "❌ ৩ বার চেষ্টা করেও push করা যায়নি"
+          exit 1
