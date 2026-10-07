@@ -1,0 +1,20 @@
+{
+  "name": "smart-ai-news-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Smart AI Automated News Portal — RSS → JSON → static site, 100% free (GitHub Pages + Actions)",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "fetch": "node scripts/fetch-news.mjs",
+    "ai": "node scripts/ai-enhance.mjs",
+    "build": "node scripts/fetch-news.mjs && node scripts/build-meta.mjs",
+    "dev": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

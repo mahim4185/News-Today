@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="bn" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>News Today — Smart AI News Portal | বাংলাদেশ ও বিশ্বের সর্বশেষ খবর</title>
+<meta name="description" content="Smart AI News Portal — বাংলাদেশ, ভারত ও বিশ্বের শীর্ষ সংবাদমাধ্যম থেকে স্বয়ংক্রিয়ভাবে সংগৃহীত সর্বশেষ খবর এক জায়গায়।">
+<meta name="keywords" content="news portal, bangladesh news, world news, tech news, sports, business, বাংলাদেশ খবর, বিশ্ব সংবাদ">
+<meta name="author" content="News Today">
+<meta name="theme-color" content="#e11d48" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#080b14" media="(prefers-color-scheme: dark)">
+
+<!-- Open Graph / Social -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="News Today">
+<meta property="og:title" content="News Today — Smart AI News Portal">
+<meta property="og:description" content="বাংলাদেশ, ভারত ও বিশ্বের সর্বশেষ খবর এক জায়গায় — স্বয়ংক্রিয়ভাবে আপডেটেড।">
+<meta property="og:locale" content="bn_BD">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="News Today — Smart AI News Portal">
+<meta name="twitter:description" content="বাংলাদেশ, ভারত ও বিশ্বের সর্বশেষ খবর এক জায়গায়।">
+
+<link rel="canonical" href="./">
+
+<!-- ⬇️ Google Search Console-এর verification কোড পেলে content="" এর ভেতরে বসাবেন -->
+<meta name="google-site-verification" content="">
+<!-- ⬇️ Bing Webmaster Tools-এর কোড (ঐচ্ছিক) -->
+<meta name="msvalidate.01" content="">
+
+<!-- Structured Data (JSON-LD) — গুগলকে সাইট বুঝতে সাহায্য করে -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "News Today",
+  "alternateName": "News Today — Smart AI News Portal",
+  "url": "./",
+  "inLanguage": ["bn-BD", "en-US"],
+  "description": "বাংলাদেশ, ভারত ও বিশ্বের শীর্ষ সংবাদমাধ্যম থেকে স্বয়ংক্রিয়ভাবে সংগৃহীত সর্বশেষ খবর এক জায়গায়।",
+  "publisher": {
+    "@type": "Organization",
+    "name": "News Today",
+    "logo": { "@type": "ImageObject", "url": "./assets/icon.svg" }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": { "@type": "EntryPoint", "urlTemplate": "./?q={search_term_string}" },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23e11d48'/%3E%3Ctext x='50' y='70' font-size='58' font-weight='900' fill='white' text-anchor='middle' font-family='Arial,sans-serif'%3EN%3C/text%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23e11d48'/%3E%3Ctext x='50' y='70' font-size='58' font-weight='900' fill='white' text-anchor='middle' font-family='Arial,sans-serif'%3EN%3C/text%3E%3C/svg%3E">
+
+<!-- Fonts (অপশনাল — ইন্টারনেট না থাকলে সিস্টেম ফন্টে ফলব্যাক করবে) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Hind+Siliguri:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+<a class="sr-only" href="#main">Skip to content</a>
+
+<!-- ============================ HEADER ============================ -->
+<header class="site-header" id="site-header">
+  <div class="container header-bar">
+    <button class="icon-btn mobile-menu-btn" id="menu-btn" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+
+    <a class="brand" href="./" aria-label="News Today home">
+      <div class="brand-mark">N</div>
+      <div class="brand-text">
+        <div class="brand-name">NEWS<span>TODAY</span></div>
+        <div class="brand-tag" data-i18n="tagline">স্মার্ট নিউজ</div>
+      </div>
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Categories"></nav>
+
+    <div class="header-actions">
+      <div class="country-chip" id="country-chip">
+        <span class="dot"></span><span class="flag">🌐</span><span data-i18n="detecting">লোকেশন যাচাই…</span>
+      </div>
+
+      <button class="icon-btn" id="mobile-search" aria-label="Search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      </button>
+      <button class="icon-btn" id="search-btn" aria-label="Search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      </button>
+      <button class="icon-btn" id="refresh-btn" aria-label="Refresh" title="Refresh">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12a9 9 0 11-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg>
+      </button>
+      <button class="icon-btn" id="theme-btn" aria-label="Toggle theme"><span id="theme-icon"></span></button>
+      <button class="lang-btn" id="lang-btn" aria-label="Change language">বাং <b>/ EN</b></button>
+    </div>
+  </div>
+
+  <!-- Breaking ticker -->
+  <div class="ticker">
+    <div class="ticker-inner">
+      <div class="ticker-label"><span class="blink"></span><span data-i18n="breaking">ব্রেকিং</span></div>
+      <div class="ticker-track" id="ticker-track"></div>
+    </div>
+  </div>
+</header>
+
+<!-- ======================== MOBILE DRAWER ========================= -->
+<div class="drawer-backdrop" id="drawer-backdrop"></div>
+<aside class="drawer" id="drawer" aria-label="Menu">
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px">
+    <div class="brand"><div class="brand-mark">N</div><div class="brand-name">NEWS<span>TODAY</span></div></div>
+    <button class="icon-btn" id="drawer-close" aria-label="Close">✕</button>
+  </div>
+  <h3 data-i18n="fCategories">ক্যাটেগরি</h3>
+  <nav id="drawer-nav"></nav>
+  <h3 data-i18n="fCompany">কোম্পানি</h3>
+  <a class="nav-link" href="#about">ℹ️ <span data-i18n="aboutUs">আমাদের সম্পর্কে</span></a>
+  <a class="nav-link" href="#about">✉️ <span data-i18n="contact">যোগাযোগ</span></a>
+  <a class="nav-link" href="#about">📄 <span data-i18n="privacy">প্রাইভেসি পলিসি</span></a>
+  <p style="margin-top:22px;font-size:12px;color:var(--muted);line-height:1.7" id="drawer-meta"></p>
+</aside>
+
+<!-- ============================ MAIN ============================== -->
+<div class="container">
+  <div class="ad-slot ad-top" id="ad-top"><span class="ad-label" data-i18n="sponsored">বিজ্ঞাপন</span><div class="ad-inner" data-ad="top"></div></div>
+
+  <div class="page-wrap">
+    <!-- ---------- Content column ---------- -->
+    <div class="content-col">
+      <main id="main">
+        <div class="pill-row" id="pill-row"></div>
+
+        <section class="hero" id="hero" aria-label="Top stories"></section>
+
+        <section id="foryou-sec" hidden></section>
+
+        <div class="sec-head">
+          <h2><span class="bar"></span><span data-i18n="latest">সর্বশেষ খবর</span></h2>
+          <span class="sub" id="story-count"></span>
+          <span class="line"></span>
+          <span class="sub" id="updated-at" style="font-size:11.5px"></span>
+        </div>
+
+        <div class="news-grid" id="news-grid"></div>
+        <div class="load-more-wrap" id="load-more-wrap"></div>
+      </main>
+    </div>
+
+    <!-- ---------- Sidebar column ---------- -->
+    <aside class="side-col" id="side-col" aria-label="Sidebar">
+      <div class="ad-slot ad-side" id="ad-side">
+        <span class="ad-label" data-i18n="sponsored">বিজ্ঞাপন</span>
+        <div class="ad-inner" data-ad="sidebar"></div>
+      </div>
+
+      <div class="widget">
+        <div class="widget-head"><span class="bar"></span><span data-i18n="trending">ট্রেন্ডিং</span>
+          <span class="live"><span style="width:7px;height:7px;border-radius:99px;background:var(--brand);display:inline-block;animation:pulse 2s infinite"></span><span data-i18n="liveNow">লাইভ</span></span>
+        </div>
+        <div class="widget-body" id="trending-body"></div>
+      </div>
+
+      <div class="widget">
+        <div class="widget-head"><span class="bar"></span><span data-i18n="sources">খবরের উৎস</span></div>
+        <div class="widget-body" id="sources-body"></div>
+      </div>
+
+      <div class="widget">
+        <div class="widget-head"><span class="bar"></span><span data-i18n="aboutUs">আমাদের সম্পর্কে</span></div>
+        <div class="widget-body" style="padding:14px 16px 18px">
+          <p style="font-size:13.5px;color:var(--muted);line-height:1.75" data-i18n="about">Smart AI News Portal — স্বয়ংক্রিয়ভাবে বিশ্বের শীর্ষ সংবাদমাধ্যম থেকে খবর সংগ্রহ করে আপনার সামনে সাজিয়ে দেয়।</p>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="site-footer" id="about">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <div class="brand">
+          <div class="brand-mark">N</div>
+          <div class="brand-text">
+            <div class="brand-name">NEWS<span>TODAY</span></div>
+            <div class="brand-tag" data-i18n="tagline">স্মার্ট নিউজ</div>
+          </div>
+        </div>
+        <p data-i18n="about">Smart AI News Portal — স্বয়ংক্রিয়ভাবে বিশ্বের শীর্ষ সংবাদমাধ্যম থেকে খবর সংগ্রহ করে আপনার সামনে সাজিয়ে দেয়।</p>
+        <div class="mini-badges" style="margin-top:14px">
+          <span>🤖 AI Auto-Update</span><span>⚡ ৩০ মিনিটে রিফ্রেশ</span><span>🌐 ২৫+ উৎস</span>
+        </div>
+      </div>
+      <div>
+        <h4 data-i18n="fCategories">ক্যাটেগরি</h4>
+        <a href="#" data-cat-goto="bangladesh">🇧🇦 বাংলাদেশ</a>
+        <a href="#" data-cat-goto="world">🌍 বিশ্ব</a>
+        <a href="#" data-cat-goto="tech">💻 টেক</a>
+        <a href="#" data-cat-goto="sports">⚽ খেলা</a>
+      </div>
+      <div>
+        <h4 data-i18n="fCompany">কোম্পানি</h4>
+        <a href="#about" data-i18n="aboutUs">আমাদের সম্পর্কে</a>
+        <a href="#about" data-i18n="contact">যোগাযোগ</a>
+        <a href="sitemap.xml" data-i18n="sitemap">সাইটম্যাপ</a>
+      </div>
+      <div>
+        <h4 data-i18n="fLegal">নীতিমালা</h4>
+        <a href="#about" data-i18n="privacy">প্রাইভেসি পলিসি</a>
+        <a href="#about" data-i18n="terms">ব্যবহারের শর্ত</a>
+        <a href="#about" data-i18n="disclaimer">ডিসক্লেইমার</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> NEWS TODAY. <span data-i18n="rights">সর্বস্বত্ব সংরক্ষিত</span></span>
+      <div class="mini-badges">
+        <span>GitHub Pages</span><span>GitHub Actions</span><span>100% Free Stack</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ======================= STICKY MOBILE AD ======================= -->
+<div class="sticky-ad" id="sticky-ad">
+  <button class="close-sticky" id="sticky-close" aria-label="Close ad">✕</button>
+  <div class="ad-inner" data-ad="stickyMobile"></div>
+</div>
+
+<!-- ========================== SEARCH UI =========================== -->
+<div class="search-overlay" id="search-overlay">
+  <div class="search-box">
+    <div class="search-field">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input id="search-input" type="search" data-i18n-ph="search" placeholder="খবর খুঁজুন…" autocomplete="off">
+      <button class="icon-btn" id="search-close" aria-label="Close">✕</button>
+    </div>
+    <div class="search-results" id="search-results"></div>
+  </div>
+</div>
+
+<!-- ============================ MODAL ============================= -->
+<div class="modal-backdrop" id="modal-backdrop">
+  <div class="modal" id="modal-content" role="dialog" aria-modal="true"></div>
+</div>
+
+<button class="to-top" id="to-top" aria-label="Back to top">↑</button>
+<div class="toast" id="toast"></div>
+
+<noscript>
+  <div style="padding:40px;text-align:center;font-family:sans-serif">
+    এই নিউজ পোর্টাল দেখতে আপনার ব্রাউজারে JavaScript চালু করুন।
+  </div>
+</noscript>
+
+<!-- =========================== SCRIPTS ============================ -->
+<script src="assets/ads.js"></script>
+<script src="assets/app.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+  }
+</script>
+</body>
+</html>

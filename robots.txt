@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Crawl-delay: 1
+
+# ⚠️ নিচের লিংকটি SITE_URL environment variable থেকে আসে।
+# GitHub Actions-এ SITE_URL সেট করলে (Settings → Variables) এটি নিজে নিজে ঠিক হয়ে যাবে।
+Sitemap: https://USERNAME.github.io/news-portal/sitemap.xml

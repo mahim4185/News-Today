@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>সাইট পাবলিশ করার গাইড — Smart AI News Portal</title>
+<style>
+:root{
+  --brand:#e11d48; --brand2:#f97316; --ok:#059669; --warn:#d97706; --info:#2563eb;
+  --bg:#f6f7fb; --card:#ffffff; --text:#101828; --muted:#5b6478; --border:#e3e8f1;
+  --code:#0f172a;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:'Hind Siliguri','Noto Sans Bengali',system-ui,-apple-system,'Segoe UI',sans-serif;
+  background:var(--bg); color:var(--text); line-height:1.85; font-size:16.5px;
+  padding-bottom:60px;
+}
+.wrap{max-width:900px;margin:0 auto;padding:20px 16px}
+
+/* ---------- Hero ---------- */
+.hero{
+  background:linear-gradient(135deg,var(--brand),var(--brand2));
+  color:#fff;border-radius:22px;padding:34px 26px;margin-bottom:26px;
+  box-shadow:0 20px 45px -20px rgba(225,29,72,.6);
+}
+.hero h1{font-size:clamp(22px,4.5vw,34px);font-weight:800;line-height:1.3;letter-spacing:-.5px}
+.hero p{margin-top:10px;opacity:.95;font-size:15.5px}
+.hero .meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.hero .meta span{
+  background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.3);
+  padding:5px 13px;border-radius:99px;font-size:13px;font-weight:700;backdrop-filter:blur(6px);
+}
+
+/* ---------- Progress ---------- */
+.progress{display:flex;gap:6px;margin:0 0 26px}
+.progress div{
+  flex:1;height:6px;border-radius:99px;background:var(--border);position:relative;overflow:hidden;
+}
+.progress div.done{background:linear-gradient(90deg,var(--ok),#10b981)}
+
+/* ---------- Step cards ---------- */
+.step{
+  background:var(--card);border:1px solid var(--border);border-radius:18px;
+  padding:24px 22px;margin-bottom:18px;box-shadow:0 1px 2px rgba(16,24,40,.04),0 10px 28px -18px rgba(16,24,40,.25);
+}
+.step-head{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+.step-num{
+  width:44px;height:44px;flex-shrink:0;border-radius:14px;
+  background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff;
+  display:grid;place-items:center;font-size:20px;font-weight:900;
+  box-shadow:0 8px 18px -8px var(--brand);
+}
+.step-head h2{font-size:20px;font-weight:800;letter-spacing:-.3px;line-height:1.35}
+.step-head .tag{
+  margin-left:auto;font-size:11px;font-weight:800;padding:4px 11px;border-radius:99px;
+  background:#ecfdf5;color:var(--ok);border:1px solid #a7f3d0;white-space:nowrap;
+}
+.step-head .tag.opt{background:#fff7ed;color:var(--warn);border-color:#fed7aa}
+
+.step h3{font-size:16px;font-weight:800;margin:18px 0 8px;color:var(--text)}
+.step p{margin-bottom:10px}
+.step ol,.step ul{margin:8px 0 12px 22px}
+.step li{margin-bottom:7px}
+
+/* click path */
+.path{
+  background:#f1f5f9;border:1px dashed #cbd5e1;border-radius:10px;
+  padding:10px 14px;margin:10px 0;font-size:14.5px;font-weight:700;color:#334155;
+}
+.path b{color:var(--brand)}
+
+/* buttons mentioned */
+.btn{
+  display:inline-block;background:var(--code);color:#fff;font-size:13.5px;font-weight:800;
+  padding:6px 14px;border-radius:8px;margin:2px 0;
+}
+
+/* code / input box */
+.box{
+  background:var(--code);color:#e2e8f0;border-radius:12px;padding:14px 16px;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13.5px;
+  overflow-x:auto;margin:10px 0;line-height:1.7;white-space:pre-wrap;word-break:break-all;
+}
+.box.light{background:#fff;color:#0f172a;border:1px solid var(--border)}
+
+/* callouts */
+.note{
+  border-radius:12px;padding:13px 16px;margin:14px 0;font-size:15px;border-left:4px solid;
+}
+.note.warn{background:#fffbeb;border-color:var(--warn);color:#78350f}
+.note.tip{background:#eff6ff;border-color:var(--info);color:#1e3a8a}
+.note.ok{background:#ecfdf5;border-color:var(--ok);color:#064e3b}
+.note b{font-weight:800}
+
+/* screenshot placeholder */
+.shot{
+  border:1px solid var(--border);border-radius:12px;background:#f8fafc;
+  padding:14px;margin:12px 0;font-size:14px;color:var(--muted);
+}
+.shot .t{font-weight:800;color:var(--text);margin-bottom:6px;font-size:13px;letter-spacing:.4px;text-transform:uppercase}
+
+/* checklist */
+.check{list-style:none;margin:0}
+.check li{
+  display:flex;gap:12px;align-items:flex-start;padding:11px 0;border-bottom:1px dashed var(--border);
+}
+.check li:last-child{border-bottom:0}
+.check .bx{
+  width:22px;height:22px;flex-shrink:0;border:2px solid #cbd5e1;border-radius:6px;margin-top:3px;
+}
+.check .tx{font-size:15.5px}
+
+/* final ask */
+.final{
+  background:linear-gradient(135deg,#0f172a,#1e293b);color:#fff;border-radius:20px;
+  padding:28px 24px;margin-top:26px;
+}
+.final h2{font-size:21px;font-weight:800;margin-bottom:10px}
+.final p{opacity:.9;margin-bottom:14px}
+.final .box{background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.15)}
+
+a{color:var(--brand);font-weight:700}
+footer{text-align:center;color:var(--muted);font-size:13.5px;margin-top:34px}
+
+@media(max-width:600px){
+  body{font-size:16px}
+  .step{padding:20px 16px}
+  .step-head{gap:10px}
+  .step-num{width:38px;height:38px;font-size:17px}
+  .step-head h2{font-size:17.5px}
+}
+@media print{
+  body{background:#fff}
+  .step{break-inside:avoid;box-shadow:none}
+  .hero{background:#e11d48 !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <h1>🚀 সাইট পাবলিশ করার পূর্ণাঙ্গ গাইড</h1>
+    <p>শূন্য থেকে লাইভ ওয়েবসাইট — ধাপে ধাপে, স্ক্রিনশট-বর্ণনা সহ। কোনো কোডিং জ্ঞান লাগবে না।</p>
+    <div class="meta">
+      <span>⏱ সময় লাগবে ~১৫ মিনিট</span>
+      <span>💰 খরচ ০ টাকা</span>
+      <span>📱 মোবাইল দিয়েও করা যাবে</span>
+    </div>
+  </div>
+
+  <div class="progress">
+    <div class="done"></div><div></div><div></div><div></div><div></div><div></div><div></div>
+  </div>
+
+  <!-- ============ STEP 0 ============ -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-num">০</div>
+      <h2>প্রথমে ZIP খুলে ফেলুন</h2>
+      <span class="tag">২ মিনিট</span>
+    </div>
+    <p>ডাউনলোড করা <b>smart-ai-news-portal.zip</b> ফাইলটির ওপর <b>রাইট-ক্লিক → Extract All</b> (মোবাইলে "Extract") করুন।</p>
+    <p>একটা <b>news-portal</b> নামের ফোল্ডার পাবেন, তার ভেতরে এইগুলো থাকবে:</p>
+    <div class="box light">news-portal/
+├── index.html          ← মূল ওয়েবসাইট
+├── standalone.html     ← ব্যাকআপ সব-ইন-ওয়ান ফাইল
+├── assets/             ← ডিজাইন + লজিক + অ্যাড কনফিগ
+├── data/               ← ৪০০টি খবর (অটো-আপডেট হবে)
+├── scripts/            ← ক্রলার + বিল্ডার
+├── .github/workflows/  ← অটো-আপডেটের ক্রন জব
+└── README.md           ← টেকনিক্যাল ডকুমেন্ট</div>
+    <div class="note warn">
+      <b>⚠️ জরুরি:</b> ডেস্কটপে কোথায় যেন খোলা থাকে — যেমন <b>Desktop</b> বা <b>Documents</b>।
+      ডাউনলোড ফোল্ডারের ভেতর রাখলে পরে খুঁজতে সমস্যা হবে।
+    </div>
+  </div>
+
+  <!-- ============ STEP 1 ============ -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-num">১</div>
+      <h2>GitHub অ্যাকাউন্ট খুলুন</h2>
+      <span class="tag">৩ মিনিট</span>
+    </div>
+    <ol>
+      <li>ব্রাউজারে যান <b>github.com</b></li>
+      <li>উপরে ডানদিকে <span class="btn">Sign up</span> ক্লিক করুন</li>
+      <li>আপনার <b>Gmail</b> দিয়ে সাইন আপ করুন (অথবা নতুন Gmail তৈরি করুন)</li>
+      <li>ইমেইলে যাওয়া <b>verification code</b> বসিয়ে ভেরিফাই করুন</li>
+      <li>জিজ্ঞাসা করলে → <b>Free</b> প্ল্যান সিলেক্ট করুন</li>
+    </ol>
+    <div class="note tip">
+      <b>💡 টিপ:</b> "What do you want to do?" — এখানে কিছুই সিলেক্ট না করলেও চলবে, নিচে <b>Skip</b> বা <b>Continue</b> চাপুন।
+    </div>
+    <div class="note ok">
+      <b>✅ হয়ে গেলে:</b> github.com খুললে উপরে ডানদিকে আপনার প্রোফাইল ছবি দেখবেন — মানে অ্যাকাউন্ট তৈরি হয়েছে।
+    </div>
+  </div>
+
+  <!-- ============ STEP 2 ============ -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-num">২</div>
+      <h2>নতুন Repository (রিপো) তৈরি করুন</h2>
+      <span class="tag">২ মিনিট</span>
+    </div>
+    <p>Repository মানে হলো আপনার ওয়েবসাইটের ফাইল রাখার জায়গা।</p>
+    <ol>
+      <li>github.com-এ লগইন করে উপরে <b>বাম দিকে</b> সবুজ <span class="btn">New</span> বাটনে ক্লিক করুন</li>
+      <li><b>Repository name</b> ঘরে লিখুন: <span class="box" style="display:inline-block;padding:2px 10px;margin:0">news-portal</span></li>
+      <li><b>Public</b> সিলেক্ট করুন ⚠️ (Private হলে ফ্রিতে Pages কাজ করবে না)</li>
+      <li>নিচের ঘরগুলো <b>খালি</b> রাখুন — "Add a README file" টিক <b>দেবেন না</b></li>
+      <li>সবুজ <span class="btn">Create repository</span> ক্লিক করুন</li>
+    </ol>
+
+    <div class="shot">
+      <div class="t">এরকম দেখতে পাবেন</div>
+      Repository name *  →  [<b>news-portal</b>]<br>
+      Description (optional) → খালি রাখুন<br>
+      ○ <b>● Public</b>   ○ Private<br>
+      ☐ Add a README file   ☐ Add .gitignore   ☐ Choose a license<br>
+      [<b>Create repository</b>]
+    </div>
+
+    <div class="note ok">
+      <b>✅ হয়ে গেলে:</b> একটা পেজ আসবে যাতে লেখা থাকবে "Quick setup — if you've done this kind of thing before"।
+      মানে রিপো তৈরি হয়েছে।
+    </div>
+  </div>
+
+  <!-- ============ STEP 3 ============ -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-num">৩</div>
+      <h2>সব ফাইল আপলোড করুন</h2>
+      <span class="tag">৩ মিনিট</span>
+    </div>
+
+    <h3>পদ্ধতি ক (সহজ — মোবাইল/কম্পিউটার দুটোতেই)</h3>
+    <ol>
+      <li>রিপো পেজের মাঝখানে নীল লিংক <b>"uploading an existing file"</b> এ ক্লিক করুন</li>
+      <li>এরপর <b>news-portal</b> ফোল্ডারের <b>ভেতরের সব ফাইল ও ফোল্ডার</b> সিলেক্ট করে টেনে এনে ছাড়ুন
+          <div class="path">ভেতরে ঢুকে <b>Ctrl+A</b> চেপে সব সিলেক্ট → টেনে আনুন<br>
+          অথবা <b>choose your files</b> ক্লিক করে সব বেছে নিন</div>
+      </li>
+      <li>নিচে সবুজ <span class="btn">Commit changes</span> ক্লিক করুন (দ্বিতীয়বারও ক্লিক করতে হতে পারে)</li>
+      <li>২-৩ সেকেন্ড অপেক্ষা করুন → পেজ রিফ্রেশ হবে, সব ফাইলের লিস্ট দেখবেন</li>
+    </ol>
+
+    <h3>পদ্ধতি খ (কম্পিউটারে Git থাকলে)</h3>
+    <div class="box">cd news-portal
+git init
+git add .
+git commit -m "first upload"
+git branch -M main
+git remote add origin https://github.com/আপনার-ইউজারনেম/news-portal.git
+git push -u origin main</div>
+
+    <div class="note warn">
+      <b>⚠️ খেয়াল রাখবেন:</b> আপলোড শেষে উপরে ফোল্ডার লিস্টে <b>.github</b> আর <b>.nojekyll</b> দেখাচ্ছে কিনা চেক করুন।
+      <br>যদি <b>.github</b> না থাকে (কিছু ব্রাউজারে লুকানো ফোল্ডার আপলোড হয় না) — নিচের কাজটি করুন:
+      <div class="path">
+        <b>Add file → Create new file</b> → নামের ঘরে লিখুন:<br>
+        <b>.github/workflows/update-news.yml</b><br>
+        → তারপর ZIP-এর ভেতরের <b>.github/workflows/update-news.yml</b> ফাইলটি Notepad দিয়ে খুলে সবকিছু কপি-পেস্ট করুন → <b>Commit changes</b>
+      </div>
+    </div>
+
+    <div class="note ok">
+      <b>✅ হয়ে গেলে:</b> রিপো পেজে <b>index.html</b>, <b>assets</b>, <b>data</b>, <b>scripts</b> — এই ফোল্ডারগুলো দেখা যাবে।
+    </div>
+  </div>
+
+  <!-- ============ STEP 4 ============ -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-num">৪</div>
+      <h2>GitHub Pages চালু করুন — এখানেই সাইট লাইভ হবে</h2>
+      <span class="tag">২ মিনিট</span>
+    </div>
+    <ol>
+      <li>রিপো পেজের উপরে ডানদিকে <b>Settings</b> ট্যাবে ক্লিক করুন</li>
+      <li>বাম মেনু থেকে <b>Pages</b> ক্লিক করুন</li>
+      <li><b>Source</b> → <b>"Deploy from a branch"</b> সিলেক্ট করুন</li>
+      <li><b>Branch</b> → <b>main</b> সিলেক্ট করুন, পাশের ঘরে <b>/(root)</b> রাখুন</li>
+      <li><span class="btn">Save</span> ক্লিক করুন</li>
+    </ol>
+
+    <div class="shot">
+      <div class="t">এরকম দেখতে পাবেন</div>
+      Build and deployment<br>
+      Source  →  [ <b>Deploy from a branch</b> ▾ ]<br>
+      Branch  →  [ <b>main</b> ▾ ] [ <b>/(root)</b> ▾ ]  [ <b>Save</b> ]
+    </div>
+
+    <h3>⏳ এরপর ২-৫ মিনিট অপেক্ষা করুন</h3>
+    <p>পেজ রিফ্রেশ করলে উপরে সবুজ বক্সে আপনার সাইটের লিংক দেখাবে:</p>
+    <div class="box">✅ Your site is live at
+https://আপনার-ইউজারনেম.github.io/news-portal/</div>
+
+    <div class="note ok">
+      <b>🎉 অভিনন্দন!</b> এই লিংকটিই আপনার ওয়েবসাইট। ক্লিক করলে সাইট খুলবে।
+      <br>লিংকটি <b>কপি করে কোথাও লিখে রাখুন</b> — পরের ধাপে লাগবে।<br>
+      <b>দেখতে না পেলে:</b> ৫ মিনিট পর আবার রিফ্রেশ করুন, অথবা <b>Actions</b> ট্যাবে কমলা/সবুজ চিহ্ন আছে কিনা দেখুন।
+    </div>
+  </div>
+
+  <!-- ============ STEP 5 ============ -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-num">৫</div>
+      <h2>অটো-আপডেট চালু করুন (সবচেয়ে জরুরি ধাপ)</h2>
+      <span class="tag">৩ মিনিট</span>
+    </div>
+    <p>এই ধাপটি না করলে সাইট লাইভ থাকবে, কিন্তু <b>নতুন খবর আসবে না</b>।</p>
+
+    <h3>ক) Actions-এ লেখার অনুমতি দিন</h3>
+    <div class="path"><b>Settings → Actions → General</b> → নিচে স্ক্রল করে <b>Workflow permissions</b> →
+    <b>● Read and write permissions</b> সিলেক্ট → <b>Save</b></div>
+
+    <h3>খ) আপনার সাইটের ঠিকানা জানিয়ে দিন</h3>
+    <div class="path">
+      <b>Settings → Secrets and variables → Actions → "Variables" ট্যাব → New repository variable</b>
+    </div>
+    <ul>
+      <li><b>Name:</b> <span class="box" style="display:inline-block;padding:1px 9px;margin:0">SITE_URL</span></li>
+      <li><b>Value:</b> ৪ নম্বর ধাপে পাওয়া লিংক — যেমন <b>https://আপনার-ইউজারনেম.github.io/news-portal</b>
+        <div class="note warn" style="margin:8px 0 0"><b>মনে রাখবেন:</b> শেষে <b>/</b> দেবেন না। <b>https://</b> দিয়ে শুরু করবেন।</div>
+      </li>
+      <li><span class="btn">Add variable</span> ক্লিক করুন</li>
+    </ul>
+
+    <h3>গ) প্রথমবার হাত দিয়ে চালু করুন</h3>
+    <div class="path">
+      উপরে <b>Actions</b> ট্যাব → বামদিকে <b>"🤖 Update News (Auto Crawler)"</b> ক্লিক →
+      ডানদিকে <b>Run workflow</b> ▾ → সবুজ <b>Run workflow</b>
+    </div>
+    <p>৩০-৬০ সেকেন্ড পর ✓ সবুজ টিক আসবে। মানে ক্রলার কাজ করেছে — নতুন খবর এসেছে।</p>
+
+    <div class="note ok">
+      <b>✅ এরপর থেকে আর কিছু করতে হবে না।</b> প্রতি ৩০ মিনিটে GitHub নিজে নিজে ক্রলার চালিয়ে
+      নতুন খবর আপডেট করবে — চিরকাল, সম্পূর্ণ বিনামূল্যে।
+    </div>
+    <div class="note tip">
+      <b>💡 কাজ করছে কিনা বোঝার উপায়:</b> সাইটের হেডারে <b>"সর্বশেষ আপডেট"</b> লেখা আছে — সেখানে সময় দেখাবে।
+      সাইট রিফ্রেশ করে ৩০ মিনিট পর দেখুন, সময় বদলাবে।
+    </div>
+  </div>
+
+  <!-- ============ STEP 6 ============ -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-num">৬</div>
+      <h2>এবার Adsterra অ্যাড বসান</h2>
+      <span class="tag opt">ঐচ্ছিক</span>
+    </div>
+    <p>সাইট লাইভ হওয়ার পর:</p>
+    <ol>
+      <li><b>adsterra.com</b>-এ Publisher অ্যাকাউন্ট খুলুন</li>
+      <li><b>Websites → Add website</b> → আপনার GitHub Pages লিংক বসান → সাথে সাথে approve</li>
+      <li><b>Ad Units → Create Ad Unit</b> → ৫টি বানান:
+        <ul>
+          <li>Banner <b>728×90</b></li>
+          <li>Banner <b>300×250</b></li>
+          <li>Banner <b>728×90</b> বা <b>Native</b></li>
+          <li><b>Social Bar</b></li>
+          <li>Banner <b>300×250</b></li>
+        </ul>
+      </li>
+      <li>৫টি কোড আমাকে পাঠান + সাইটের লিংক → আমি বসিয়ে টেস্ট করে ZIP দিয়ে দেবো</li>
+    </ol>
+    <div class="note tip">
+      <b>💡 অথবা নিজেই করুন:</b> ZIP-এর <b>assets/ads.js</b> ফাইলটি Notepad দিয়ে খুলুন, ৫টি ঘরে কোড বসিয়ে
+      সেভ করুন → GitHub-এ <b>assets</b> ফোল্ডারে গিয়ে নতুন করে আপলোড করুন। ১০ মিনিটেই অ্যাড লাইভ।
+    </div>
+  </div>
+
+  <!-- ============ STEP 7 ============ -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-num">৭</div>
+      <h2>নিজের ডোমেইন যুক্ত করুন</h2>
+      <span class="tag opt">ঐচ্ছিক</span>
+    </div>
+    <p><code>yourname.github.io/news-portal</code> -এর বদলে <code>yourdomain.com</code> চাইলে:</p>
+    <ol>
+      <li>যেকোনো জায়গা থেকে ডোমেইন কিনুন (Namecheap / Porkbun / Cloudflare — ~$৮-১০/বছর)</li>
+      <li>GitHub-এ: <b>Settings → Pages → Custom domain</b> → ডোমেইন লিখে <b>Save</b></li>
+      <li>ডোমেইন প্রোভাইডারের DNS সেটিংসে যোগ করুন:
+        <div class="box">A     @     185.199.108.153
+A     @     185.199.109.153
+A     @     185.199.110.153
+A     @     185.199.111.153
+CNAME www   আপনার-ইউজারনেম.github.io</div>
+      </li>
+      <li>১-২৪ ঘণ্টা অপেক্ষা করুন → <b>Enforce HTTPS</b> টিক দিন</li>
+      <li>ডোমেইন বদলালে <b>SITE_URL</b> variable-ও আপডেট করতে ভুলবেন না!</li>
+    </ol>
+  </div>
+
+  <!-- ============ STEP 8 ============ -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-num">৮</div>
+      <h2>গুগলে সাইট তুলুন (Search Console)</h2>
+      <span class="tag">৫ মিনিট + অপেক্ষা</span>
+    </div>
+
+    <div class="note warn">
+      <b>⚠️ সত্যি কথা:</b> সাইট লাইভ হলেই গুগলে আসবে না। গুগলকে <b>খুঁজে বের করতে</b> হয় —
+      একে বলে <b>ইনডেক্সিং</b>। সময় লাগতে পারে <b>৩ দিন থেকে ৪ সপ্তাহ</b>।
+      ব্র্যান্ড নাম দিয়ে সার্চ করলে (যেমন "News Today news portal") সাধারণত <b>৩-৭ দিনেই</b> আসে।
+    </div>
+
+    <h3>ক) গুগলকে জানান আপনার সাইটের কথা</h3>
+    <ol>
+      <li>যান <b>search.google.com/search-console</b> → <b>Start now</b></li>
+      <li>বামদিকে <b>"URL prefix"</b> সিলেক্ট করুন → আপনার সাইটের লিংক বসান → <b>Continue</b></li>
+      <li><b>HTML tag</b> মেথড সিলেক্ট করুন → <code>&lt;meta name="google-site-verification" content="..."&gt;</code> কোডটি কপি করুন</li>
+      <li>ZIP-এর <b>index.html</b> Notepad দিয়ে খুলুন → এমন একটা লাইন খুঁজুন:
+        <div class="box">&lt;meta name="google-site-verification" content=""&gt;</div>
+        → <b>content=""</b> এর ভেতরে ওই কোড বসান → সেভ করুন</li>
+      <li>index.html GitHub-এ আপলোড করুন (পুরনোটার ওপর রিপ্লেস) → ২ মিনিট পর Search Console-এ <b>Verify</b> চাপুন</li>
+    </ol>
+
+    <h3>খ) সাইটম্যাপ জমা দিন (সবচেয়ে জরুরি)</h3>
+    <div class="path">
+      Search Console-এ ভেরিফাই হওয়ার পর → বাম মেনু <b>Sitemaps</b> →
+      <b>sitemap.xml</b> লিখে <b>Submit</b>
+    </div>
+    <div class="box">sitemap.xml</div>
+    <p>✅ সবুজ "Success" দেখালে কাজ শেষ। গুগল এখন আপনার সাইটের সব পেজ খুঁজে পাবে।</p>
+
+    <h3>গ) দ্রুত ইনডেক্স করতে চাইলে</h3>
+    <div class="path">
+      Search Console-এর উপরের সার্চ বারে আপনার সাইটের লিংক বসান →
+      <b>"Request Indexing"</b> ক্লিক করুন
+    </div>
+    <p>এতে গুগল ১-৩ দিনের মধ্যে আপনার সাইট ঘুরে দেখতে আসে।</p>
+
+    <h3>ঘ) সার্চে ভালো র‍্যাংক পাওয়ার জন্য</h3>
+    <ul>
+      <li>🔁 <b>অবশ্যই AI রিরাইট চালু করুন</b> (README দেখুন) — খবর একদম হুবহু কপি হলে গুগল "duplicate content" বলে পেছনে ফেলে দেয়</li>
+      <li>📝 সপ্তাহে ২-৩টা <b>নিজের লেখা</b> আর্টিকেল যোগ করুন</li>
+      <li>🔗 সোশ্যাল মিডিয়ায় (Facebook, WhatsApp, X) লিংক শেয়ার করুন — গুগল এটি পজিটিভ সিগন্যাল হিসেবে দেখে</li>
+      <li>⏳ ধৈর্য রাখুন — নতুন সাইটের র‍্যাংক আসতে <b>৩-৬ মাস</b> লাগতে পারে</li>
+    </ul>
+
+    <div class="note tip">
+      <b>💡 ব্রাউজার নয়, সার্চ ইঞ্জিন আসল বিষয়:</b> Chrome-এ সার্চ দিলে <b>Google</b>-এ খোঁজে,
+      Edge-এ দিলে <b>Bing</b>-এ, Firefox-এ দিলে <b>Google</b>-এ। ফলাফল ব্রাউজারের ওপর নয়,
+      <b>সার্চ ইঞ্জিনের ওপর</b> নির্ভর করে। তবে একবার গুগলে এসে গেলে —
+      <b>যেকোনো ব্রাউজার, যেকোনো ডিভাইস</b> থেকে সার্চ করলেই আপনার সাইট আসবে।
+    </div>
+  </div>
+
+  <!-- ============ STEP 9 : RENDER ============ -->
+  <div class="step" style="border:2px solid #46e3b7">
+    <div class="step-head">
+      <div class="step-num">🟢</div>
+      <h2>Render-এ হোস্ট করুন (বিকল্প ফ্রি ডোমেইন)</h2>
+      <span class="tag">৫ মিনিট</span>
+    </div>
+
+    <div class="note warn">
+      <b>🔴 সবচেয়ে জরুরি কথা — ২ ধরনের সার্ভিসের পার্থক্য:</b>
+      <div class="box light" style="margin-top:10px;font-size:14px;line-height:2">
+        <b>Static Site</b>  ✅ সবসময় জেগে থাকে • কোনো cold start নেই • unlimited • CDN • ফ্রি<br>
+        <b>Web Service</b>  ❌ ১৫ মিনিট পর ঘুমায় • ৩০-৬০ সেকেন্ড লোড • ৭৫০ ঘণ্টা/মাস
+      </div>
+      আমাদের সাইট <b>পুরোটাই স্ট্যাটিক</b> — তাই অবশ্যই <b>Static Site</b> বেছে নেবেন।
+    </div>
+
+    <h3>ধাপ ১ — Render অ্যাকাউন্ট</h3>
+    <ol>
+      <li><b>render.com</b> → <b>Get Started</b> → <b>GitHub দিয়ে</b> সাইন আপ করুন (সবচেয়ে সহজ)</li>
+      <li>GitHub কানেক্ট করলে Render আপনার সব রিপো দেখতে পাবে → <b>news-portal</b> সিলেক্ট করুন</li>
+    </ol>
+
+    <h3>ধাপ ২ — সার্ভিস তৈরি</h3>
+    <ol>
+      <li>ড্যাশবোর্ডে <b>New +</b> → <b>Static Site</b> ক্লিক করুন ⚠️ (Web Service নয়!)</li>
+      <li><b>news-portal</b> রিপো সিলেক্ট করুন → <b>Connect</b></li>
+      <li>নিচের মতো পূরণ করুন:</li>
+    </ol>
+
+    <div class="box light" style="line-height:2;font-size:14.5px">Name              →  news-portal
+Branch            →  main
+<b>Build Command     →  খালি রাখুন</b>
+<b>Publish Directory →  .</b>          (শুধু একটা ডট)</div>
+
+    <div class="note tip">
+      <b>💡 আপনার জন্য <code>render.yaml</code> ফাইল আগেই বানানো আছে</b> — ZIP-এর রুটে।
+      সেটা থাকলে Render নিজে থেকে সব সেটিং চিনে নেবে, আপনাকে কিছুই লিখতে হবে না।
+    </div>
+
+    <ol start="4">
+      <li><b>Create Static Site</b> ক্লিক করুন</li>
+      <li>১-২ মিনিট অপেক্ষা করুন → ড্যাশবোর্ডে <b>"Live"</b> সবুজ ব্যাজ</li>
+    </ol>
+
+    <h3>ধাপ ৩ — আপনার ফ্রি ডোমেইন পাবেন</h3>
+    <div class="box">https://news-portal.onrender.com</div>
+    <p>এই লিংকটি উপরে বামদিকে দেখাবে। কপি করে রাখুন।</p>
+
+    <h3>ধাপ ৪ — SITE_URL আপডেট করুন (ভুললে sitemap ভুল হবে)</h3>
+    <div class="path">
+      GitHub → <b>Settings → Secrets and variables → Actions → Variables → SITE_URL</b> →
+      Edit → নতুন লিংক বসান → <b>Save</b>
+    </div>
+    <div class="box">https://news-portal.onrender.com</div>
+    <p>এরপর <b>Actions → Update News → Run workflow</b> — সাইটম্যাপ নতুন লিংক দিয়ে তৈরি হবে।</p>
+
+    <h3>✅ Render কবে বেছে নেবেন</h3>
+    <ul>
+      <li>✅ <code>.onrender.com</code> ডোমেইনটা <code>.github.io/news-portal</code>-এর চেয়ে ছোট ও সুন্দর</li>
+      <li>✅ কোনো cold start নেই — সবসময় দ্রুত লোড</li>
+      <li>✅ কাস্টম ডোমেইন <b>ফ্রি</b> যুক্ত করা যায় (Settings → Custom Domains)</li>
+      <li>✅ GitHub Actions ক্রন ঠিক আগের মতোই কাজ করবে —
+          news.json আপডেট → push → Render স্বয়ংক্রিয়ভাবে রিডিপ্লয়</li>
+      <li>⚠️ একটাই সীমাবদ্ধতা: মাসে <b>৫০০ বিল্ড মিনিট</b>। আমাদের সাইটের বিল্ড লাগে ~১০ সেকেন্ড,
+          তাই দিনে ৪৮ বার ডিপ্লয় করলেও মাসে মাত্র ~৪ মিনিট খরচ। কোনো সমস্যা নেই।</li>
+    </ul>
+
+    <div class="note ok">
+      <b>🎯 আমার পরামর্শ:</b> দুটোই একসাথে রাখতে পারেন —
+      <b>GitHub Pages</b> (ব্যাকআপ/প্রাইমারি) + <b>Render</b> (সুন্দর ডোমেইন)।
+      দুটোই ফ্রি, দুটোই GitHub Actions থেকে আপডেট হয়। কোনো ঝামেলা নেই।
+    </div>
+  </div>
+
+  <!-- ============ CHECKLIST ============ -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-num">✓</div>
+      <h2>চেকলিস্ট — এক নজরে</h2>
+    </div>
+    <ul class="check">
+      <li><span class="bx"></span><span class="tx">ZIP এক্সট্রাকট করেছি</span></li>
+      <li><span class="bx"></span><span class="tx">GitHub অ্যাকাউন্ট খুলেছি</span></li>
+      <li><span class="bx"></span><span class="tx"><b>Public</b> রিপো তৈরি করেছি (নাম: news-portal)</span></li>
+      <li><span class="bx"></span><span class="tx">সব ফাইল আপলোড করেছি (.github + .nojekyll সহ)</span></li>
+      <li><span class="bx"></span><span class="tx"><b>Settings → Pages → main /(root)</b> → Save</span></li>
+      <li><span class="bx"></span><span class="tx">সাইট লাইভ লিংক পেয়েছি + কপি করে রেখেছি</span></li>
+      <li><span class="bx"></span><span class="tx"><b>Settings → Actions → General</b> → Read and write permissions</span></li>
+      <li><span class="bx"></span><span class="tx"><b>Variables</b> → SITE_URL যোগ করেছি</span></li>
+      <li><span class="bx"></span><span class="tx"><b>Actions → Update News → Run workflow</b> → ✓ সবুজ টিক এসেছে</span></li>
+      <li><span class="bx"></span><span class="tx">সাইট খুলে দেখেছি — খবর, ডার্ক মোড, ভাষা সুইচ সব কাজ করছে</span></li>
+      <li><span class="bx"></span><span class="tx"><b>Google Search Console</b>-এ সাইট যোগ + ভেরিফাই করেছি</span></li>
+      <li><span class="bx"></span><span class="tx"><b>Sitemaps → sitemap.xml</b> সাবমিট করেছি</span></li>
+    </ul>
+  </div>
+
+  <!-- ============ TROUBLESHOOT ============ -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-num">?</div>
+      <h2>সমস্যা হলে — সাধারণ সমাধান</h2>
+    </div>
+
+    <h3>❌ "Your site is live at" দেখাচ্ছে না / ৪০৪</h3>
+    <p>→ ৫-১০ মিনিট অপেক্ষা করে রিফ্রেশ করুন। এরপরও না হয়: <b>Actions</b> ট্যাবে লাল চিহ্ন আছে কিনা দেখুন।
+    সবুজ টিক থাকলে সব ঠিক আছে — শুধু সময় লাগছে।</p>
+
+    <h3>❌ Actions-এ লাল ✗ / workflow failed</h3>
+    <p>→ কারণ প্রায় সবসময় <b>Workflow permissions</b>। ধাপ ৫-এর (ক) অংশটি আবার করুন, তারপর
+    <b>Actions → সবুজ বাটন "Re-run all jobs"</b> ক্লিক করুন।</p>
+
+    <h3>❌ সাইট খুললে "Data load failed"</h3>
+    <p>→ মানে <b>data/news.json</b> আপলোড হয়নি। রিপোতে <b>data</b> ফোল্ডার আছে কিনা চেক করুন।
+    না থাকলে আবার আপলোড করুন।</p>
+
+    <h3>❌ খবর আপডেট হচ্ছে না</h3>
+    <p>→ <b>Actions</b> ট্যাবে গিয়ে দেখুন সর্বশেষ কবে চলেছে। GitHub মাঝে মাঝে ৬০ দিন নিষ্ক্রিয় থাকলে
+    ক্রন বন্ধ করে দেয় — সমাধান: মাসে একবার <b>Run workflow</b> চাপুন।</p>
+
+    <h3>❌ ছবি লোড হচ্ছে না</h3>
+    <p>→ কিছু সংবাদপত্র (NDTV) বাইরে থেকে ছবি দেখাতে দেয় না। সাইট নিজেই সুন্দর গ্রেডিয়েন্ট
+    প্লেসহোল্ডার দেখায় — ডিজাইন নষ্ট হয় না। এটা স্বাভাবিক।</p>
+  </div>
+
+  <!-- ============ FINAL ============ -->
+  <div class="final">
+    <h2>📨 সাইট লাইভ হয়ে গেলে আমাকে যা পাঠাবেন</h2>
+    <p>ধাপ ৪ শেষে পাওয়া লিংক + ধাপ ৬-এর Adsterra কোডগুলো দিন, আমি সব বসিয়ে দিচ্ছি:</p>
+    <div class="box">আমার সাইটের লিংক:
+https://........................................
+
+সাইটের নাম (চাইলে বদলে দেবো):
+................................................
+
+Adsterra কোড ১ (728x90):
+................................................
+
+Adsterra কোড ২ (300x250):
+................................................
+
+Adsterra কোড ৩ (728x90 / Native):
+................................................
+
+Adsterra কোড ৪ (Social Bar):
+................................................
+
+Adsterra কোড ৫ (300x250 Modal):
+................................................</div>
+    <p style="margin-top:14px">আমি বসিয়ে → ব্রাউজারে টেস্ট করে (অ্যাড লোড হচ্ছে কিনা, মোবাইলে স্টিকি আসছে কিনা) →
+    নতুন ZIP বানিয়ে দেবো। আপনি শুধু <b>assets/ads.js</b> ফাইলটা GitHub-এ রিপ্লেস করলেই কাজ শেষ।</p>
+  </div>
+
+  <footer>
+    Smart AI News Portal — ১০০% ফ্রি স্ট্যাক (GitHub Pages + Actions)<br>
+    এই পেইজটি প্রিন্ট করে পাশে রাখতে পারেন (Ctrl+P)
+  </footer>
+
+</div>
+</body>
+</html>

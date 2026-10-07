@@ -1,0 +1,3 @@
+# ads.txt — Google AdSense-এর জন্য
+# অ্যাপ্রুভালের পর AdSense থেকে পাওয়া লাইনটা এখানে বসান:
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

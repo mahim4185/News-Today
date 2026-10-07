@@ -1,0 +1,21 @@
+# ============================================================
+#  Render Blueprint — Smart AI News Portal
+# ============================================================
+#  ⚠️  অবশ্যই "Static Site" (runtime: static) ব্যবহার করবেন।
+#
+#  Static Site  → সবসময় জেগে থাকে, কোনো cold start নেই, CDN, unlimited, ফ্রি
+#  Web Service  → ১৫ মিনিট পর ঘুমিয়ে যায়, ৩০-৬০ সেকেন্ড cold start ❌
+#
+#  আমাদের সাইট পুরোটাই স্ট্যাটিক (HTML+CSS+JS+JSON) — তাই Static Site-ই সঠিক।
+#  খবর আপডেট হয় GitHub Actions দিয়ে → Render স্বয়ংক্রিয়ভাবে রিডিপ্লয় করে।
+# ============================================================
+
+services:
+  - type: web
+    name: news-portal
+    runtime: static          # ⬅️ এটাই Static Site বানায় (সবচেয়ে গুরুত্বপূর্ণ লাইন)
+    branch: main
+    buildCommand: ""         # কোনো বিল্ড স্টেপ লাগবে না
+    staticPublishPath: .     # index.html রুটেই আছে
+    autoDeploy: true         # GitHub-এ push হলেই নিজে নিজে আপডেট হয়
+    pullRequestPreviewsEnabled: false

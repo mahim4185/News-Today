@@ -1,0 +1,23 @@
+{
+  "name": "News Today — Smart AI News Portal",
+  "short_name": "NewsToday",
+  "description": "বাংলাদেশ, ভারত ও বিশ্বের সর্বশেষ খবর — স্বয়ংক্রিয়ভাবে আপডেটেড",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080b14",
+  "theme_color": "#e11d48",
+  "lang": "bn-BD",
+  "dir": "ltr",
+  "categories": ["news", "magazine"],
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "assets/icon-maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "বাংলাদেশ", "short_name": "BD", "url": "./?cat=bangladesh" },
+    { "name": "টেক", "short_name": "Tech", "url": "./?cat=tech" },
+    { "name": "খেলা", "short_name": "Sports", "url": "./?cat=sports" }
+  ]
+}
