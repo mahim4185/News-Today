@@ -1,0 +1,65 @@
+name: 🤖 Update News (Auto Crawler)
+
+on:
+  # প্রতি ৩০ মিনিটে চলবে (UTC) — GitHub Actions schedule একটু দেরি করতে পারে
+  schedule:
+    - cron: '*/30 * * * *'
+  # চাইলে GitHub থেকে manually চালাতে পারবেন (Actions → Run workflow)
+  workflow_dispatch:
+  # repo-তে push করলেও একবার চলবে
+  push:
+    branches: [main, master]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: ⬇️ Checkout
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: 📦 Install deps
+        run: npm install --no-audit --no-fund
+
+      - name: 🕷️ Fetch news from RSS
+        run: node scripts/fetch-news.mjs
+        env:
+          # Google News ফিডও চালু করতে চাইলে true করুন (বাণিজ্যিক সাইটে সতর্কতা দেখুন)
+          USE_GOOGLE_NEWS: 'false'
+
+      - name: 🧠 AI summary (optional — GEMINI_API_KEY থাকলেই চলবে)
+        run: node scripts/ai-enhance.mjs || true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: 📄 Build sitemap / feed / robots
+        run: node scripts/build-meta.mjs
+        env:
+          # GitHub Pages URL — নিজের অনুযায়ী বদলান
+          SITE_URL: ${{ vars.SITE_URL || 'https://USERNAME.github.io/REPO' }}
+
+      - name: 💾 Commit & push
+        run: |
+          git config user.name  "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add data/ sitemap.xml feed.xml robots.txt || true
+          if git diff --staged --quiet; then
+            echo "ℹ️  কোনো পরিবর্তন নেই — কমিট স্কিপ করা হলো"
+          else
+            git commit -m "🤖 auto: news update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
