@@ -2,77 +2,417 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
   <title>News Today — Smart AI News Portal</title>
-  <link>https://USERNAME.github.io/REPO/</link>
+  <link>https://news-today-bxkx.onrender.com/</link>
   <description>বাংলাদেশ, ভারত ও বিশ্বের সর্বশেষ খবর — স্বয়ংক্রিয়ভাবে আপডেটেড</description>
   <language>bn-BD</language>
-  <lastBuildDate>Wed, 07 Oct 2026 10:21:08 GMT</lastBuildDate>
-  <atom:link href="https://USERNAME.github.io/REPO/feed.xml" rel="self" type="application/rss+xml"/>
+  <lastBuildDate>Wed, 07 Oct 2026 11:04:02 GMT</lastBuildDate>
+  <atom:link href="https://news-today-bxkx.onrender.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>US death row inmate Christa Pike awake and speaking after failed execution, lawyers say</title>
+    <title>এক সেঞ্চুরিতে ১৮ ধাপ এগোলেন আইয়ার, বোলিংয়ে শীর্ষস্থান খোয়ালেন আবরার</title>
+    <link>https://www.prothomalo.com/sports/cricket/per47aaj0s</link>
+    <guid isPermaLink="false">1qft0xf</guid>
+    <pubDate>Wed, 07 Oct 2026 10:49:03 GMT</pubDate>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, পাকিস্তানের স্পিনার আবরার আহমেদ হারিয়েছেন টি। এ ঘটনায় আলোচিত: শীর্ষস্থান, আবরার, সেঞ্চুরিতে, এগোলেন।</description>
+    <source url="https://www.prothomalo.com">Prothom Alo</source>
+    <category>bangladesh</category>
+    <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/3tvbngtf/423471.webp" medium="image"/>
+  </item>
+  <item>
+    <title>মাইকিং করে লোক জড়ো, পুলিশের সামনে চার গ্রামের বাসিন্দাদের সংঘর্ষ</title>
+    <link>https://www.prothomalo.com/bangladesh/district/jyjxofp7j3</link>
+    <guid isPermaLink="false">zugiof</guid>
+    <pubDate>Wed, 07 Oct 2026 10:42:30 GMT</pubDate>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, রাতে গ্রামের মসজিদের মাইকে ঘোষণা দেওয়া হয় সকালে যাঁর যা আছে, তা। এ ঘটনায় আলোচিত: গ্রামের, মাইকিং, পুলিশের, সামনে।</description>
+    <source url="https://www.prothomalo.com">Prothom Alo</source>
+    <category>bangladesh</category>
+    <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/65wi9z6c/sunamganjdh053220261007img-20261007-wa0080.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>2023 সালের পর থেকে ভারতের প্রথম ব্যাঙ্ক রেট বৃদ্ধি মুদ্রাস্ফীতির ক্রমবর্ধমান উদ্বেগের ইঙ্গিত দেয়</title>
+    <link>https://www.bbc.co.uk/news/articles/c5j9kngz3j1go?at_medium=RSS&amp;at_campaign=rss</link>
+    <guid isPermaLink="false">1bst8mq</guid>
+    <pubDate>Wed, 07 Oct 2026 10:44:02 GMT</pubDate>
+    <description>BBC World-এর প্রতিবেদনের ভিত্তিতে, এই বৃদ্ধি মধ্য প্রাচ্যের দ্বন্দ্বের কারণে কেন্দ্রীয় ব্যাংকগুলি মুদ্রাস্ফীতির বিরুদ্ধে লড়াই করায় কঠোর আর্থিক নীতির দিকে বিশ্বব্যাপী পরিবর্তনকে প্রতিফলিত করে ।</description>
+    <source url="https://www.bbc.com">BBC World</source>
+    <category>world</category>
+    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ce3/live/45771df0-c207-11f1-b488-75e728293e20.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>আর্টেতা চ্যাম্পিয়ন্স আর্সেনালের সাথে নতুন চুক্তি স্বাক্ষর করেছেন</title>
+    <link>https://www.bbc.co.uk/sport/football/articles/crz65j5p8l57o?at_medium=RSS&amp;at_campaign=rss</link>
+    <guid isPermaLink="false">gcup4u</guid>
+    <pubDate>Wed, 07 Oct 2026 11:00:53 GMT</pubDate>
+    <description>BBC Sport-এর প্রতিবেদনের ভিত্তিতে, মাইকেল আর্তেটা বলেছেন যে ২০৩০ সাল পর্যন্ত প্রিমিয়ার লিগ চ্যাম্পিয়নদের সাথে একটি নতুন চুক্তি স্বাক্ষর করার পরে এটি আর্সেনালের সাফল্যের &quot;কেবল শুরু&quot; ।</description>
+    <source url="https://www.bbc.com">BBC Sport</source>
+    <category>sports</category>
+    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba9f/live/e737d150-c23b-11f1-be2f-0fbd447d6e43.png" medium="image"/>
+  </item>
+  <item>
+    <title>রসায়নে নোবেল পুরস্কার জীবনের অসমতার রহস্য সমাধানের জন্য</title>
+    <link>https://www.bbc.co.uk/news/articles/c6ly038jg0d4o?at_medium=RSS&amp;at_campaign=rss</link>
+    <guid isPermaLink="false">p99zx6</guid>
+    <pubDate>Wed, 07 Oct 2026 10:33:05 GMT</pubDate>
+    <description>BBC World-এর প্রতিবেদনের ভিত্তিতে, জীবনের অসমতার রহস্য সমাধানের জন্য ফরাসি এবং জাপানি বিজ্ঞানীদের পুরস্কার দেওয়া হয়েছিল ।</description>
+    <source url="https://www.bbc.com">BBC World</source>
+    <category>world</category>
+    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caf1/live/a5f2fc60-c23b-11f1-be2f-0fbd447d6e43.png" medium="image"/>
+  </item>
+  <item>
+    <title>স্ত্রীকে হত্যার পরে, তিনি 12 বছরেরও বেশি সময় ধরে ধর্ষণ ও হত্যার কাজ চালিয়ে যান</title>
+    <link>https://en.prothomalo.com/bangladesh/crime-and-law/0uuq8p0k62</link>
+    <guid isPermaLink="false">14ybu8</guid>
+    <pubDate>Wed, 07 Oct 2026 10:44:23 GMT</pubDate>
+    <description>Prothom Alo EN-এর প্রতিবেদনের ভিত্তিতে, মনিরুজ্জামান মাতুব্বর, যিনি হরিদয় নামেও পরিচিত, ১২ বছর আগে তার স্ত্রীকে হত্যার পর পালিয়ে যান । স্ত্রী হত্যার মামলায় চার বছর জেল খাটার পরে, তাকে জামিনে মুক্তি দেওয়া হয় এবং আবার আত্মগোপনে চলে যায় । তারপরে তিনি বেশ কয়েকটি অপরাধের সাথে জড়িত হন । তার নামও s।</description>
+    <source url="https://en.prothomalo.com">Prothom Alo EN</source>
+    <category>bangladesh</category>
+    <media:content url="https://media.prothomalo.com/prothomalo-english/2026-10-07/e2hcg3f3/rape-and-murder.avif" medium="image"/>
+  </item>
+  <item>
+    <title>এআই দিয়ে ওয়েব অ্যাপ বানিয়ে যেভাবে ভাইরাল হলেন সাব্বির</title>
+    <link>https://www.prothomalo.com/bangladesh/district/mdeocnu9zu</link>
+    <guid isPermaLink="false">14eg0kk</guid>
+    <pubDate>Wed, 07 Oct 2026 10:21:00 GMT</pubDate>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, সাব্বিরের দেওয়া তথ্য অনুযায়ী, সর্বশেষ সাত দিনে ওয়েব অ্যাপটিতে ২ কোটি ৪০ লাখ ভিজিট হয়েছে। এর মধ্যে ইউনিক ভিজিটরের সংখ্যা ১৯ লাখ ৮০ হাজার। এ ঘটনায় আলোচিত: অ্যাপ, বানিয়ে, যেভাবে, ভাইরাল।</description>
+    <source url="https://www.prothomalo.com">Prothom Alo</source>
+    <category>bangladesh</category>
+    <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/bqzbu117/WhatsApp-Image-2026-10-07-at-16.02.17.jpeg" medium="image"/>
+  </item>
+  <item>
+    <title>যে ৩ বাউন্ডারি আমার সম্পর্কটি টিকিয়ে রাখতে সাহায্য করেছে</title>
+    <link>https://www.prothomalo.com/lifestyle/relation/68i3x9hqmn</link>
+    <guid isPermaLink="false">1sfd9a8</guid>
+    <pubDate>Wed, 07 Oct 2026 10:16:18 GMT</pubDate>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, একাধিকবার মন ভাঙার পর একটি সম্পর্কে কীভাবে থিতু হলেন, তা–ই নিয়ে একটি লেখা লিখেছিলেন ‘ভ্যারাইটি’ ম্যাগাজিনের ক্যালিগ্রাফার ও ডিজাইনার এরিকা টি । সেখানে সম্পর্ক টিকিয়ে রাখতে তিনটি বিষয়ে সীমারেখা টানার কথা বলেছেন তিনি। তারেক হাসান সরকার। এ ঘটনায় আলোচিত: টিকিয়ে, রাখতে, বাউন্ডারি, সম্পর্কটি।</description>
+    <source url="https://www.prothomalo.com">Prothom Alo</source>
+    <category>bangladesh</category>
+    <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/swq6ry32/pexels-ali-sufian-saghar-13140790-6685603.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>ছাত্র বিক্ষোভে ছেলেটির হাত ফাটার পর ফ্রান্স স্টান গ্রেনেড ব্যবহার বন্ধ করে দিয়েছে</title>
+    <link>https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko?at_medium=RSS&amp;at_campaign=rss</link>
+    <guid isPermaLink="false">yhah5f</guid>
+    <pubDate>Wed, 07 Oct 2026 10:23:23 GMT</pubDate>
+    <description>BBC World-এর প্রতিবেদনের ভিত্তিতে, বেশ কয়েকটি গোষ্ঠী কিশোর-কিশোরীদের প্রতি অসামঞ্জস্যপূর্ণ শক্তি ব্যবহার করে পুলিশের কাছে অভিযোগ করার পরে এই পদক্ষেপ নেওয়া হয়েছে ।</description>
+    <source url="https://www.bbc.com">BBC World</source>
+    <category>world</category>
+    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b147/live/114ad2c0-c229-11f1-babe-4199b0e7ccea.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>বিশ্বাসযোগ্য হওয়ার জন্য কেনিয়াকে অবশ্যই &#39;পরিষ্কার&#39; হতে হবে, ওয়াডা প্রধান বলেছেন</title>
+    <link>https://www.bbc.co.uk/sport/olympics/articles/c9kgj0vj0gx4o?at_medium=RSS&amp;at_campaign=rss</link>
+    <guid isPermaLink="false">1e1ilzh</guid>
+    <pubDate>Wed, 07 Oct 2026 10:42:54 GMT</pubDate>
+    <description>BBC Sport-এর প্রতিবেদনের ভিত্তিতে, Wada সভাপতি উইটোল্ড ব্যাঙ্কা বলেছেন যে 2029 সালের বিশ্ব অ্যাথলেটিক্স চ্যাম্পিয়নশিপ আয়োজনের আগে কেনিয়াকে অবশ্যই পরীক্ষা, তদন্ত এবং অ্যান্টি-ডোপিং প্রয়োগ জোরদার করতে হবে ।</description>
+    <source url="https://www.bbc.com">BBC Sport</source>
+    <category>sports</category>
+    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b231/live/149fd3b0-c235-11f1-be2f-0fbd447d6e43.png" medium="image"/>
+  </item>
+  <item>
+    <title>মরক্কোকে এএফসিএন শিরোনামের উপর সেনেগালের আপিল শুনানির জন্য সিএএস</title>
+    <link>https://www.aljazeera.com/sports/2026/10/7/cas-to-hear-senegal-appeal-over-afcon-title-awarded-to-morocco?traffic_source=rss</link>
+    <guid isPermaLink="false">41s2mv</guid>
+    <pubDate>Wed, 07 Oct 2026 10:28:32 GMT</pubDate>
+    <description>Al Jazeera-এর প্রতিবেদনের ভিত্তিতে, সিএএফ দ্বারা আফ্রিকা কাপ অফ নেশনস খেতাব থেকে সেনেগালকে সরিয়ে দেওয়ার পরে কোর্ট অফ আরবিট্রেশন ফর স্পোর্ট (সিএএস) শুনানি শুরু হবে ।</description>
+    <source url="https://www.aljazeera.com">Al Jazeera</source>
+    <category>world</category>
+    
+  </item>
+  <item>
+    <title>বালি ট্রিপের জন্য অর্থ প্রদান করা দম্পতি, কিন্তু অপারেটর তাদের ছেড়ে চলে গেছে; কমিশন 90,000 টাকা অর্ডার করেছে</title>
+    <link>https://timesofindia.indiatimes.com/legal/news/couple-paid-for-bali-holiday-but-operator-failed-to-include-them-in-tour-commission-orders-rs-90000/articleshow/134763541.cms</link>
+    <guid isPermaLink="false">17k0jb6</guid>
+    <pubDate>Wed, 07 Oct 2026 10:45:43 GMT</pubDate>
+    <description>Times of India-এর প্রতিবেদনের ভিত্তিতে, একটি কেরালার কনজিউমার কমিশন একটি ট্যুর অপারেটরকে বুক করা বালি সফর সরবরাহ করতে ব্যর্থ হওয়ার জন্য 90,000 টাকা মঞ্জুর করার আদেশ দিয়েছে । 82,500 টাকা দেওয়া গ্রাহককে ট্রিপ থেকে বাদ দেওয়া হয়েছিল, যার ফলে আংশিক অর্থ ফেরত দেওয়া হয়েছিল যা অপর্যাপ্ত ছিল । কমিশন রায় দিয়েছে যে থি।</description>
+    <source url="https://timesofindia.indiatimes.com">Times of India</source>
+    <category>india</category>
+    <media:content url="https://static.toiimg.com/photo/msid-134763711,imgsize-2089143.cms" medium="image"/>
+  </item>
+  <item>
+    <title>অতিমানব এখন অন-ডিমান্ড হার্ট রিদম স্ক্যান অফার করে</title>
+    <link>https://www.engadget.com/2278463/ultrahuman-on-demand-afib-heart-rhythm-scan/</link>
+    <guid isPermaLink="false">k1jqiw</guid>
+    <pubDate>Wed, 07 Oct 2026 11:00:00 GMT</pubDate>
+    <description>Engadget-এর প্রতিবেদনের ভিত্তিতে, আল্ট্রাহুমান এখন আপনাকে রিয়েল-টাইমে আফিবের লক্ষণগুলি পরীক্ষা করতে সহায়তা করার জন্য অন-ডিমান্ড হার্ট রিদম স্ক্যান সরবরাহ করছে ।</description>
+    <source url="https://www.engadget.com">Engadget</source>
+    <category>tech</category>
+    <media:content url="https://www.engadget.com/img/gallery/ultrahuman-now-offers-on-demand-heart-rhythm-scans/l-intro-1791279051.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>মাইক্রোসফ্ট উইন্ডোজ এবং সারফেস ইভেন্ট কীভাবে দেখবেন</title>
+    <link>https://www.engadget.com/2279620/how-to-watch-microsoft-windows-surface-event/</link>
+    <guid isPermaLink="false">18sk2zu</guid>
+    <pubDate>Wed, 07 Oct 2026 11:00:00 GMT</pubDate>
+    <description>Engadget-এর প্রতিবেদনের ভিত্তিতে, মাইক্রোসফ্টের সিইও সত্য নাদেলা এবং এনভিডিয়া সিইও জেনসেন হুয়াং আজ সান ফ্রান্সিসকো ইভেন্টে উইন্ডোজ এবং ডিভাইস প্রধান পাভান দাভুলুরিতে যোগদান করেছেন ।</description>
+    <source url="https://www.engadget.com">Engadget</source>
+    <category>tech</category>
+    <media:content url="https://www.engadget.com/img/gallery/how-to-watch-the-microsoft-windows-and-surface-event/l-intro-1791337449.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>CEC ROW LIVE: সিইসি জ্ঞানেশ কুমারের পদত্যাগের দাবিতে যন্তর মন্তরে গেলেন ভারত ব্লকের সাংসদরা</title>
+    <link>https://www.thehindu.com/news/national/cec-row-gyanesh-kumar-india-bloc-march-election-commission-sir-delhi-police-cjp-jantar-mantar-protest-live-updates-october-7-2026/article71554188.ece</link>
+    <guid isPermaLink="false">1twfdvy</guid>
+    <pubDate>Wed, 07 Oct 2026 10:59:58 GMT</pubDate>
+    <description>The Hindu-এর প্রতিবেদনের ভিত্তিতে, ইন্ডিয়া ব্লকের বিক্ষোভের আগে কেন্দ্রীয় নয়াদিল্লির বেশ কয়েকটি অংশ দুর্গের মতো দেখতে হওয়ায় দিল্লি জুড়ে নিরাপত্তা জোরদার করা হয়েছিল।</description>
+    <source url="https://www.thehindu.com">The Hindu</source>
+    <category>india</category>
+    
+  </item>
+  <item>
+    <title>উটি রোডে চলন্ত গাড়িতে পাথর পড়ে অবসরপ্রাপ্ত এয়ার ফোর্স অফিসার মারা যান</title>
+    <link>https://www.thehindu.com/news/national/tamil-nadu/retired-air-force-officer-dies-as-boulder-falls-on-moving-car-on-ooty-road/article71554833.ece</link>
+    <guid isPermaLink="false">1p50hfk</guid>
+    <pubDate>Wed, 07 Oct 2026 10:59:14 GMT</pubDate>
+    <description>The Hindu-এর প্রতিবেদনের ভিত্তিতে, কোয়েম্বাটোর জেলা সীমার বার্লিয়ার চেকপোস্ট থেকে প্রায় ৫০০ মিটার নিচে যখন গাড়িটি চলছিল, তখন পাহাড় থেকে পড়ে যাওয়া একটি পাথর গাড়ির উপর পড়ে যায় ।</description>
+    <source url="https://www.thehindu.com">The Hindu</source>
+    <category>india</category>
+    <media:content url="https://th-i.thgim.com/public/incoming/vyrof9/article71555228.ece/alternates/LANDSCAPE_1200/9869_7_10_2026_13_53_8_1_IMG_20261007_WA0019.JPG" medium="image"/>
+  </item>
+  <item>
+    <title>রয়্যাল মেল ২, ৫০০টি চাকরি কাটানোর পরিকল্পনা করেছে</title>
+    <link>https://www.bbc.co.uk/news/articles/cwvgdld13e3eo?at_medium=RSS&amp;at_campaign=rss</link>
+    <guid isPermaLink="false">1br8w9g</guid>
+    <pubDate>Wed, 07 Oct 2026 10:42:52 GMT</pubDate>
+    <description>BBC Business-এর প্রতিবেদনের ভিত্তিতে, ডাক পরিষেবা সংস্থা 2027 সালের মধ্যে হেড অফিস এবং অন্যান্য নন-ফ্রন্টলাইন কাজগুলি কেটে ফেলতে চায় ।</description>
+    <source url="https://www.bbc.com">BBC Business</source>
+    <category>business</category>
+    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f14c/live/dee1ef00-c235-11f1-be2f-0fbd447d6e43.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>মার্কিন মৃত্যুদণ্ডপ্রাপ্ত ক্রাইস্টা পাইকের মৃত্যুদন্ড কার্যকরের পর জেগে ওঠেন এবং কথা বলেন, আইনজীবীরা বলছেন</title>
     <link>https://www.bbc.co.uk/news/articles/c8kgezxn54qko?at_medium=RSS&amp;at_campaign=rss</link>
     <guid isPermaLink="false">1nppaan</guid>
     <pubDate>Wed, 07 Oct 2026 10:12:36 GMT</pubDate>
-    <description>A medical expert advising her legal team says the murderer of Colleen Slemmer is communicating in a &quot;basic way&quot;.</description>
+    <description>BBC World-এর প্রতিবেদনের ভিত্তিতে, তার আইনী দলকে পরামর্শ দিয়ে একজন মেডিকেল বিশেষজ্ঞ বলেছেন কলিন স্লিমারের হত্যাকারী &quot;মৌলিক উপায়ে&quot; যোগাযোগ করছে ।</description>
     <source url="https://www.bbc.com">BBC World</source>
     <category>world</category>
     <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b33f/live/56311ac0-c210-11f1-bc2e-018d645d8d21.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>নতুন নিয়োগের মাধ্যমে দিল্লি হাইকোর্টের বিচারকের সংখ্যা ৫০ এ উন্নীত হয়েছে</title>
+    <link>https://www.thehindu.com/news/cities/Delhi/delhi-high-court-judge-strength-rises-to-50-with-new-appointment/article71555255.ece</link>
+    <guid isPermaLink="false">ut54sw</guid>
+    <pubDate>Wed, 07 Oct 2026 10:57:32 GMT</pubDate>
+    <description>The Hindu-এর প্রতিবেদনের ভিত্তিতে, হাইকোর্টের অনুমোদিত শক্তি 60 জন যার মধ্যে 45 জন স্থায়ী এবং 15 জন অতিরিক্ত বিচারক রয়েছে ।</description>
+    <source url="https://www.thehindu.com">The Hindu</source>
+    <category>india</category>
+    <media:content url="https://th-i.thgim.com/public/incoming/u9l5bt/article71555274.ece/alternates/LANDSCAPE_1200/iStock-1385496457.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>‘জাদুকর’–এ শুরু, বিচ্ছেদে শেষ; প্রীতম</title>
+    <link>https://www.prothomalo.com/entertainment/song/9hrxbsyxzp</link>
+    <guid isPermaLink="false">18qslw2</guid>
+    <pubDate>Wed, 07 Oct 2026 10:04:46 GMT</pubDate>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, প্রীতম। এ ঘটনায় আলোচিত: জাদুকর, প্রীতম, বিচ্ছেদে, শেহতাজ।</description>
+    <source url="https://www.prothomalo.com">Prothom Alo</source>
+    <category>bangladesh</category>
+    <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/mbxa2sir/KBRH1701.JPG" medium="image"/>
+  </item>
+  <item>
+    <title>বীর মুক্তিযোদ্ধার তালিকায় আর আবেদন নয়, চূড়ান্ত যাচাইয়ে বাদ পড়বেন অ-মুক্তিযোদ্ধারা</title>
+    <link>https://www.prothomalo.com/bangladesh/955eo44oc5</link>
+    <guid isPermaLink="false">hcxp7m</guid>
+    <pubDate>Wed, 07 Oct 2026 10:03:32 GMT</pubDate>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, বীর মুক্তিযোদ্ধার তালিকায় আজ বুধবারের পর আর আবেদন নেওয়া হবে না। ইতিমধ্যে আবেদনকারীদের চূড়ান্ত যাচাই। এ ঘটনায় আলোচিত: মুক্তিযোদ্ধার, তালিকায়, আবেদন, চূড়ান্ত।</description>
+    <source url="https://www.prothomalo.com">Prothom Alo</source>
+    <category>bangladesh</category>
+    <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/de8pkw24/molwa.jpeg" medium="image"/>
+  </item>
+  <item>
+    <title>ক্রাইস্টা পাইক মৃত্যুদন্ড কার্যকর করার পরে জেগে উঠেছে: এখন কী হবে?</title>
+    <link>https://www.aljazeera.com/news/2026/10/7/christa-pike-is-awake-after-surviving-execution-what-happens-now?traffic_source=rss</link>
+    <guid isPermaLink="false">79mves</guid>
+    <pubDate>Wed, 07 Oct 2026 10:22:11 GMT</pubDate>
+    <description>Al Jazeera-এর প্রতিবেদনের ভিত্তিতে, টেনেসির মৃত্যুদন্ডপ্রাপ্ত কয়েদি মৃত্যুদণ্ড কার্যকর করার চেষ্টা থেকে বেঁচে যায়, যা আইনি এবং চিকিৎসা সংক্রান্ত উদ্বেগের কারণ হয়ে দাঁড়ায় ।</description>
+    <source url="https://www.aljazeera.com">Al Jazeera</source>
+    <category>world</category>
+    
+  </item>
+  <item>
+    <title>&#39;মেডেলের মতো এফআইআর, আমি ১০০ চাই&#39;: সিইসির বিরুদ্ধে রাহুল, পদত্যাগের দাবি</title>
+    <link>https://timesofindia.indiatimes.com/india/firs-are-like-medals-i-want-100-rahul-gandhi-ups-ante-against-gyanesh-kumar-seeks-resignation/articleshow/134762870.cms</link>
+    <guid isPermaLink="false">1f32b84</guid>
+    <pubDate>Wed, 07 Oct 2026 10:39:10 GMT</pubDate>
+    <description>Times of India-এর প্রতিবেদনের ভিত্তিতে, রাহুল গান্ধী প্রধান নির্বাচন কমিশনার (সিইসি) জ্ঞানেশ কুমারের উপর আক্রমণ বাড়িয়েছিলেন, যিনি তার কার্যকারিতা নিয়ে বিরোধী দলের ক্রসহেয়ারে ছিলেন এবং তার অধস্তনদের মধ্যে মতবিরোধের কথা জানিয়েছিলেন । কংগ্রেস নেতা , একটি নতুন প্রতিবাদ শুরু করার ঘোষণা দিয়ে।</description>
+    <source url="https://timesofindia.indiatimes.com">Times of India</source>
+    <category>india</category>
+    <media:content url="https://static.toiimg.com/photo/msid-134763521,imgsize-141404.cms" medium="image"/>
+  </item>
+  <item>
+    <title>ফ্র্যাঞ্চাইজির মূল্য নির্ধারণের জন্য এআই টুল ব্যবহার করে ম্যাকডোনাল্ডস অ্যান্টিট্রাস্ট লঙ্ঘনের অভিযোগে মামলা করেছে</title>
+    <link>https://www.theguardian.com/business/2026/oct/07/mcdonalds-ai-prices-lawsuit</link>
+    <guid isPermaLink="false">171cn1b</guid>
+    <pubDate>Wed, 07 Oct 2026 11:00:08 GMT</pubDate>
+    <description>Guardian Tech-এর প্রতিবেদনের ভিত্তিতে, মামলা বলছে এআই টুল স্বাধীন মালিকানাধীন ফ্র্যাঞ্চাইজিগুলিকে অ-সরকারি মূল্য এবং বিক্রয়ের তথ্য বিনিময় করার অনুমতি দেয় ম্যাকডোনাল্ডস স্বাধীন ফ্র্যাঞ্চাইজি জুড়ে মূল্য নির্ধারণের জন্য এআই টুলের কথিত ব্যবহারের বিষয়ে ফেডারেল কোর্টে একটি মামলার মুখোমুখি হচ্ছে, যা প্রসিকিউটররা।</description>
+    <source url="https://www.theguardian.com">Guardian Tech</source>
+    <category>tech</category>
+    <media:content url="https://i.guim.co.uk/img/media/bb76948bfbc9a99557b50e41f7610704ac96a9a4/186_0_2501_2000/master/2501.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=c437aaf6f8280f3852dba1d94c3b2d10" medium="image"/>
   </item>
   <item>
     <title>নিউমুরিং টার্মিনালের ইজারা চুক্তি আগামীকাল</title>
     <link>https://www.prothomalo.com/business/economics/b939hhx8kn</link>
     <guid isPermaLink="false">1mmc0i6</guid>
     <pubDate>Wed, 07 Oct 2026 10:00:00 GMT</pubDate>
-    <description>চট্টগ্রাম বন্দরের সবচেয়ে বড় নিউমুরিং কনটেইনার টার্মিনাল বা এনসিটি বিদেশি অপারেটরের হাতে দেওয়ার বিরুদ্ধে আন্দোলন চলছে।</description>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, চট্টগ্রাম বন্দরের সবচেয়ে বড় নিউমুরিং কনটেইনার টার্মিনাল বা এনসিটি বিদেশি অপারেটরের হাতে দেওয়ার বিরুদ্ধে আন্দোলন চলছে। এ ঘটনায় আলোচিত: নিউমুরিং, টার্মিনালের, ইজারা, চুক্তি।</description>
     <source url="https://www.prothomalo.com">Prothom Alo</source>
     <category>bangladesh</category>
     <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-02-08/dskrpdgd/3.avif" medium="image"/>
+  </item>
+  <item>
+    <title>ক্রাইস্টা পাইক ব্যর্থ মৃত্যুদন্ড কার্যকর করার পরে জেগে ওঠেন, তার অ্যাটর্নিরা আরও তথ্য চান</title>
+    <link>https://www.thehindu.com/news/international/christa-pike-is-conscious-and-speaking-after-tennessee-failed-execution-her-attorneys-say/article71553181.ece</link>
+    <guid isPermaLink="false">110hs3w</guid>
+    <pubDate>Wed, 07 Oct 2026 10:52:27 GMT</pubDate>
+    <description>The Hindu-এর প্রতিবেদনের ভিত্তিতে, প্রাণঘাতী ইনজেকশন ওষুধ দেওয়ার পরে পাইকই একমাত্র জীবিত ব্যক্তি বলে বিশ্বাস করা হয়।</description>
+    <source url="https://www.thehindu.com">The Hindu</source>
+    <category>india</category>
+    <media:content url="https://th-i.thgim.com/public/incoming/r1h4rv/article71553321.ece/alternates/LANDSCAPE_1200/2026-10-03T095406Z_141454320_RC2PTNAYXSRM_RTRMADP_3_TENNESSEE-EXECUTION.JPG" medium="image"/>
+  </item>
+  <item>
+    <title>&#39;সত্যিকারের ঐতিহাসিক&#39;: প্রধানমন্ত্রী মোদীর সরকারের ২৫ বছর পূর্তি উপলক্ষ্যে নেতাকর্মীদের উল্লাস</title>
+    <link>https://timesofindia.indiatimes.com/india/truly-historic-milestone-leaders-hail-pm-modi-as-he-completes-25-years-in-government/articleshow/134762483.cms</link>
+    <guid isPermaLink="false">pscgep</guid>
+    <pubDate>Wed, 07 Oct 2026 10:36:05 GMT</pubDate>
+    <description>Times of India-এর প্রতিবেদনের ভিত্তিতে, &#39;সত্যিকারের ঐতিহাসিক&#39;: প্রধানমন্ত্রী মোদীর সরকারের ২৫ বছর পূর্তি উপলক্ষ্যে নেতাকর্মীদের উল্লাস।</description>
+    <source url="https://timesofindia.indiatimes.com">Times of India</source>
+    <category>india</category>
+    <media:content url="https://static.toiimg.com/photo/msid-134763515,imgsize-62514.cms" medium="image"/>
+  </item>
+  <item>
+    <title>চেন্নাইয়ে অ্যালায়েন্স ফ্রাঙ্কাইজের 13-ঘন্টা কমিকস উদযাপনে যা আশা করা যায় তা এখানে</title>
+    <link>https://www.thehindu.com/life-and-style/heres-what-to-expect-at-the-alliance-francaises-13-hour-celebration-of-comics-in-chennai/article71554308.ece</link>
+    <guid isPermaLink="false">nmi0yh</guid>
+    <pubDate>Wed, 07 Oct 2026 10:50:31 GMT</pubDate>
+    <description>The Hindu-এর প্রতিবেদনের ভিত্তিতে, অল-নাইট ফেস্টিভাল লা নুইট ব্লাঞ্চের চতুর্থ সংস্করণ মাদ্রাজের অ্যালায়েন্স ফ্রাঞ্চাইজ-এ থিয়েটার, নৃত্য, সঙ্গীত, প্রদর্শনী, চলচ্চিত্র এবং কর্মশালা সহ ফরাসি এবং ভারতীয় কমিক ঐতিহ্য নিয়ে আসে।</description>
+    <source url="https://www.thehindu.com">The Hindu</source>
+    <category>india</category>
+    <media:content url="https://th-i.thgim.com/public/incoming/pcxzo2/article71554492.ece/alternates/LANDSCAPE_1200/DSC_4474.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>ইউকে ক্রেতা ভ্যাসের জন্য £ 1 প্রদান করেছেন; এটি পরে £ 484,000 এ বিক্রি হয়েছে</title>
+    <link>https://timesofindia.indiatimes.com/world/uk/a-uk-shopper-paid-just-1-for-a-small-yellow-vase-at-a-hertfordshire-charity-shop-after-ebay-bidders-raised-questions-experts-identified-it-as-an-imperial-qianlong-piece-and-it-sold-for-484000/articleshow/134731387.cms</link>
+    <guid isPermaLink="false">1mp2aon</guid>
+    <pubDate>Wed, 07 Oct 2026 10:35:09 GMT</pubDate>
+    <description>Times of India-এর প্রতিবেদনের ভিত্তিতে, ভাগ্যের একটি হৃদয়গ্রাহী গল্পে, একজন ব্যক্তি একটি দাতব্য দোকানে মাত্র £ 1 এর জন্য একটি সাধারণ হলুদ ফুলদানি কিনেছিলেন । ইবেতে এটি তালিকাভুক্ত করার পরে, তিনি অনুসন্ধানে ডুবে গিয়েছিলেন, তাকে বিশেষজ্ঞের মূল্যায়ন চাইতে প্ররোচিত করেছিলেন । বিশেষজ্ঞরা প্রকাশ করেছেন যে এটি একটি ইম্পেরিয়াল টুকরা যা তৈরি করা হয়েছিল।</description>
+    <source url="https://timesofindia.indiatimes.com">Times of India</source>
+    <category>india</category>
+    <media:content url="https://static.toiimg.com/photo/msid-134733298,imgsize-100484.cms" medium="image"/>
   </item>
   <item>
     <title>করপোরেট মুনাফা বনাম জনস্বাস্থ্য: প্যাকেজের গায়ে কালো দাগের যুদ্ধ আর কিছু ‘আজগুবি’ যুক্তি</title>
     <link>https://nagorik.prothomalo.com/ayojon/5kjm74u90r</link>
     <guid isPermaLink="false">1nerkvv</guid>
     <pubDate>Wed, 07 Oct 2026 09:56:42 GMT</pubDate>
-    <description>জনস্বাস্থ্য সুরক্ষার জন্য চিলির এফওপিএল আইন সফল হয়েছে। আইনটি খাদ্যপণ্য সতর্কীকরণে সহায়ক, করপোরেট লবিংয়ের প্রতিবন্ধকতাও জয় করতে পারছে। লাতিন আমেরিকা এবং এশিয়ার বিভিন্ন দেশের পদক্ষেপ জনস্বাস্থ্য উন্নয়নে গুরুত্বপূর্ণ।</description>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, জনস্বাস্থ্য সুরক্ষার জন্য চিলির এফওপিএল আইন সফল হয়েছে। আইনটি খাদ্যপণ্য সতর্কীকরণে সহায়ক, করপোরেট লবিংয়ের প্রতিবন্ধকতাও জয় করতে পারছে। লাতিন আমেরিকা এবং এশিয়ার বিভিন্ন দেশের পদক্ষেপ জনস্বাস্থ্য উন্নয়নে গুরুত্বপূর্ণ। এ ঘটনায় আলোচিত: জনস্বাস্থ্য, করপোরেট, মুনাফা, প্যাকেজের।</description>
     <source url="https://www.prothomalo.com">Prothom Alo</source>
     <category>bangladesh</category>
     <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-08-15/btumhljn/pexels-michael-burrows-7129428.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>ড্রামক্রি মার্চ লেটার স্বাক্ষর করতে সেলিব্রিটিদের মধ্যে নোয়েল গ্যালাগার এবং সুসান সারান্ডন</title>
+    <link>https://www.bbc.co.uk/news/articles/cxm237q5y9z1o?at_medium=RSS&amp;at_campaign=rss</link>
+    <guid isPermaLink="false">6ofp5b</guid>
+    <pubDate>Wed, 07 Oct 2026 10:41:05 GMT</pubDate>
+    <description>BBC Entertainment-এর প্রতিবেদনের ভিত্তিতে, এনআই সেক্রেটারি স্যার ক্রিস ব্রায়ান্টকে সম্বোধন করা চিঠিতে প্যারেড বিরোধের সমাধানের জন্য একটি আন্তর্জাতিক মধ্যস্থতাকারী নিয়োগের আহ্বান জানানো হয়েছে ।</description>
+    <source url="https://www.bbc.com">BBC Entertainment</source>
+    <category>entertainment</category>
+    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa45/live/49bdf3c0-c225-11f1-b7d8-6f930589c871.png" medium="image"/>
+  </item>
+  <item>
+    <title>ক্রাইস্টা পাইক কীভাবে মৃত্যুদণ্ডের চেষ্টা থেকে বেঁচে গিয়েছিলেন - এবং এরপরে কী হবে?</title>
+    <link>https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&amp;at_campaign=rss</link>
+    <guid isPermaLink="false">1c4zeqh</guid>
+    <pubDate>Wed, 07 Oct 2026 10:01:47 GMT</pubDate>
+    <description>BBC World-এর প্রতিবেদনের ভিত্তিতে, কলিন স্লিমারের দোষী সাব্যস্ত ঘাতক দুটি মারাত্মক ইনজেকশন বেঁচে থাকার পরে টেনেসির হাসপাতালে জেগে উঠেছে এবং কথা বলছে বলে জানা গেছে ।</description>
+    <source url="https://www.bbc.com">BBC World</source>
+    <category>world</category>
+    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/925e/live/9f0dd630-c237-11f1-be2f-0fbd447d6e43.jpg" medium="image"/>
   </item>
   <item>
     <title>গাজী নজরুলের জামিন নামঞ্জুর</title>
     <link>https://www.prothomalo.com/bangladesh/3286u3di6j</link>
     <guid isPermaLink="false">xrs2as</guid>
     <pubDate>Wed, 07 Oct 2026 09:53:50 GMT</pubDate>
-    <description>আজ বুধবার ঢাকার মেট্রোপলিটন ম্যাজিস্ট্রেট মো. আরিফুল ইসলাম শুনানি শেষে এই আদেশ দেন। জামিন শুনানিতে গাজী নজরুল ইসলামকে হাজির করা হয়নি। তিনি কারাগারে আছেন।</description>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, আরিফুল ইসলাম শুনানি শেষে এই আদেশ দেন। জামিন শুনানিতে গাজী নজরুল ইসলামকে হাজির করা হয়নি। তিনি কারাগারে আছেন। এ ঘটনায় আলোচিত: জামিন, নজরুলের, নামঞ্জুর, বুধবার।</description>
     <source url="https://www.prothomalo.com">Prothom Alo</source>
     <category>bangladesh</category>
     <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-07-22/gcdmrrrl/58479410624145173956706982039318210574859244n.jpg" medium="image"/>
   </item>
   <item>
-    <title>চলতি বছর রসায়নে নোবেল পুরস্কার পেয়েছেন ফরাসি বিজ্ঞানী অঁরি কাগান এবং জাপানের বিজ্ঞানী কেনসো সোআই</title>
+    <title>রসায়নের ডান–বাম রহস্য সমাধান করে নোবেল পেলেন দুই বিজ্ঞানী</title>
     <link>https://www.bigganchinta.com/chemistry/q58rea3bv3</link>
     <guid isPermaLink="false">18xrlg9</guid>
     <pubDate>Wed, 07 Oct 2026 09:53:24 GMT</pubDate>
-    <description>। জৈব রাসায়নিক বিক্রিয়ায় অরৈখিক প্রভাব এবং অসমমিত সংশ্লেষণে স্ব-অনুঘটনের ভূমিকা আবিষ্কারের জন্য তাঁদের রসায়নে নোবেল পুরস্কার দেওয়া হয়েছে। বাংলাদেশ সময় বুধবার বিকাল ৩টা ৪৫ মিনিটে সুইডেনের স্টকহোম থেকে এ বছরের রসায়নে নোবেল বিজয়ীদের নাম ঘোষণা করে রয়্যাল সুইডিশ এ…</description>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, চলতি বছর রসায়নে নোবেল পুরস্কার পেয়েছেন ফরাসি বিজ্ঞানী অঁরি কাগান এবং জাপানের বিজ্ঞানী কেনসো সোআই। জৈব রাসায়নিক বিক্রিয়ায় অরৈখিক প্রভাব এবং অসমমিত সংশ্লেষণে স্ব। এ ঘটনায় আলোচিত: নোবেল, বিজ্ঞানী, রসায়নে, পুরস্কার।</description>
     <source url="https://www.prothomalo.com">Prothom Alo</source>
     <category>bangladesh</category>
     <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/9u2gxvu6/Chemistry.png" medium="image"/>
+  </item>
+  <item>
+    <title>ড্রোন স্ট্রাইক কার্গো জাহাজ ডুবে যাওয়ার পরে বুলগেরিয়া নিখোঁজ ক্রুদের সন্ধান শেষ করেছে</title>
+    <link>https://www.aljazeera.com/news/2026/10/7/bulgaria-ends-search-for-missing-crew-after-drone-strike-sinks-cargo-ship?traffic_source=rss</link>
+    <guid isPermaLink="false">1sszaid</guid>
+    <pubDate>Wed, 07 Oct 2026 10:12:04 GMT</pubDate>
+    <description>Al Jazeera-এর প্রতিবেদনের ভিত্তিতে, জীবিত কাউকে খুঁজে না পেয়ে উদ্ধারকর্মীরা উপকূলীয় এলাকায় অভিযান বন্ধ করে দেয় ।</description>
+    <source url="https://www.aljazeera.com">Al Jazeera</source>
+    <category>world</category>
+    
+  </item>
+  <item>
+    <title>প্রশিক্ষণ বিমান কালাবুরাগি বিমানবন্দরের কাছে কৃষিক্ষেত্রে জরুরি অবতরণ করে</title>
+    <link>https://www.thehindu.com/news/national/karnataka/training-aircraft-makes-emergency-landing-in-agricultural-field-near-kalaburagi-airport/article71552236.ece</link>
+    <guid isPermaLink="false">hhe65q</guid>
+    <pubDate>Wed, 07 Oct 2026 10:45:11 GMT</pubDate>
+    <description>The Hindu-এর প্রতিবেদনের ভিত্তিতে, প্রশিক্ষণ বিমান কালাবুরাগি বিমানবন্দরের কাছে কৃষিক্ষেত্রে জরুরি অবতরণ করে।</description>
+    <source url="https://www.thehindu.com">The Hindu</source>
+    <category>india</category>
+    <media:content url="https://th-i.thgim.com/public/incoming/10qh18/article71552530.ece/alternates/LANDSCAPE_1200/10258_6_10_2026_19_38_55_1_KLB_EMERGENCY_LANDING_TRAINING_AIRCRAFT_1.JPEG" medium="image"/>
+  </item>
+  <item>
+    <title>মাইনিং মিলিয়নেয়ার গ্রিফিথ পার্ক তৈরির জন্য ৩, ০১৫ এলএ একর দিয়েছে</title>
+    <link>https://timesofindia.indiatimes.com/world/us/a-mining-millionaire-paid-50000-for-4071-acres-of-los-angeles-land-in-1882-14-years-later-he-gave-3015-acres-to-the-city-creating-griffith-park-and-the-ground-for-its-famous-observatory/articleshow/134759717.cms</link>
+    <guid isPermaLink="false">1c4v3p3</guid>
+    <pubDate>Wed, 07 Oct 2026 10:30:00 GMT</pubDate>
+    <description>Times of India-এর প্রতিবেদনের ভিত্তিতে, ১৮৮২ সালে, মাইনিং ম্যাগনেট গ্রিফিথ জে গ্রিফিথ সান্তা মনিকা পর্বতমালায় একটি বিশাল খামার অর্জন করেছিলেন, পরে ১৮৯৬ সালে গ্রিফিথ পার্ক তৈরির জন্য এর বেশিরভাগ অংশ দান করেছিলেন । এই পার্কটি লস অ্যাঞ্জেলেসের জনগণের জন্য গুরুত্বপূর্ণ বিনোদনমূলক এলাকা এবং সাংস্কৃতিক সুযোগ-সুবিধা প্রদান করেছে । তবে।</description>
+    <source url="https://timesofindia.indiatimes.com">Times of India</source>
+    <category>india</category>
+    <media:content url="https://static.toiimg.com/photo/msid-134760096,imgsize-141424.cms" medium="image"/>
+  </item>
+  <item>
+    <title>জেফরি আর্চার, এবং দীর্ঘ দুপুরের ভারত এবং ভাল বই</title>
+    <link>https://timesofindia.indiatimes.com/india/the-loss-of-jefferey-archer-feels-personal-to-us-because-we-miss-the-india-of-the-1980s-the-india-of-simple-pleasures/articleshow/134762675.cms</link>
+    <guid isPermaLink="false">139mq7n</guid>
+    <pubDate>Wed, 07 Oct 2026 10:29:56 GMT</pubDate>
+    <description>Times of India-এর প্রতিবেদনের ভিত্তিতে, ঔপন্যাসিক যিনি ভারতীয়দের পরিবার হয়েছিলেন।</description>
+    <source url="https://timesofindia.indiatimes.com">Times of India</source>
+    <category>india</category>
+    <media:content url="https://static.toiimg.com/photo/msid-134763034,imgsize-2636989.cms" medium="image"/>
   </item>
   <item>
     <title>বিদায়বেলায় সতীর্থদের কৃতিত্ব দিয়ে গেলেন টিমপ্লেয়ার মেসি</title>
     <link>https://www.bondhushava.com/sports/q351rhoe2g</link>
     <guid isPermaLink="false">1vzye59</guid>
     <pubDate>Wed, 07 Oct 2026 09:52:17 GMT</pubDate>
-    <description>কয়েক বছর ধরে বিশ্বের সবচাইতে ধারাবাহিক টিম হয়ে উঠেছে আর্জেন্টিনা। যার নেতা লিওনেল মেসি। দলটির সতীর্থদের বন্ধনের কথা চারদিকে প্রশংসিত। তবে নিজের শেষ আন্তর্জাতিক ম্যাচ খেলতে নেমে বিদায়ী বক্তব্যে এই সাফল্যের পেছনে সব কৃতিত্ব সতীর্থদেরই দিলেন একসময় সমালোচকদের চোখ…</description>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, কয়েক বছর ধরে বিশ্বের সবচাইতে ধারাবাহিক টিম হয়ে উঠেছে আর্জেন্টিনা। যার নেতা লিওনেল মেসি। দলটির সতীর্থদের বন্ধনের কথা চারদিকে প্রশংসিত। তবে নিজের শেষ আন্তর্জাতিক ম্যাচ খেলতে নেমে বিদায়ী বক্তব্যে এই সাফল্যের পেছনে সব কৃতিত্ব সতীর্থদেরই দিলেন একসময় সমালোচকদের চোখ…। এ ঘটনায় আলোচিত: সতীর্থদের, কৃতিত্ব, বিদায়বেলায়, গেলেন।</description>
     <source url="https://www.prothomalo.com">Prothom Alo</source>
     <category>bangladesh</category>
     <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/pe81wsdz/HTfoAEWAAAFBIz.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>রাশিয়ায় প্লেগ ল্যাব কর্মীর মৃত্যু নিয়ে পুতিনের সঙ্গে কথা বলবেন ট্রাম্প</title>
+    <link>https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o?at_medium=RSS&amp;at_campaign=rss</link>
+    <guid isPermaLink="false">8kgj5y</guid>
+    <pubDate>Wed, 07 Oct 2026 09:59:13 GMT</pubDate>
+    <description>BBC World-এর প্রতিবেদনের ভিত্তিতে, নিউমোনিক প্লেগের কারণে মৃত্যু হতে পারে এমন আশঙ্কা রাশিয়ার কাছ থেকে আরও স্বচ্ছতার আহ্বান জানিয়েছে ।</description>
+    <source url="https://www.bbc.com">BBC World</source>
+    <category>world</category>
+    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3744/live/6325d7d0-c18d-11f1-83c7-97e75190a976.png" medium="image"/>
   </item>
   <item>
     <title>দুর্গাপূজায় বর্ধিত ছুটির প্রজ্ঞাপন, ছুটিতে যা যা খোলা থাকবে</title>
     <link>https://www.prothomalo.com/chakri/chakri-news/rqx9koukja</link>
     <guid isPermaLink="false">866xnt</guid>
     <pubDate>Wed, 07 Oct 2026 09:51:25 GMT</pubDate>
-    <description>আসন্ন শারদীয় দুর্গাপূজা উপলক্ষে ২০ থেকে ২২ অক্টোবর ছুটি ঘোষণা করে প্রজ্ঞাপন জারি করেছে জনপ্রশাসন মন্ত্রণালয়। তবে তার আগে ১৭ অক্টোবর শনিবার সব সরকারি, আধা সরকারি, স্বায়ত্তশাসিত, আধা স্বায়ত্তশাসিত ও বেসরকারি অফিস খোলা থাকবে। আজ বুধবার এ বিষয়ে প্রজ্ঞাপন জারি করে…</description>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, আসন্ন শারদীয় দুর্গাপূজা উপলক্ষে ২০ থেকে ২২ অক্টোবর ছুটি ঘোষণা করে প্রজ্ঞাপন জারি করেছে জনপ্রশাসন মন্ত্রণালয়। তবে তার আগে ১৭ অক্টোবর শনিবার সব সরকারি, আধা সরকারি, স্বায়ত্তশাসিত, আধা স্বায়ত্তশাসিত ও বেসরকারি অফিস খোলা থাকবে। আজ বুধবার এ বিষয়ে প্রজ্ঞাপন জারি করে…। এ ঘটনায় আলোচিত: প্রজ্ঞাপন, থাকবে, অক্টোবর, সরকারি।</description>
     <source url="https://www.prothomalo.com">Prothom Alo</source>
     <category>bangladesh</category>
     <media:content url="https://media.prothomalo.com/prothomalo-bangla/2020-08/2d98af5b-3962-4020-8b43-47e8a2437690/df467c24-f8c6-492a-8540-7e7cd61785f6.png" medium="image"/>
@@ -82,7 +422,7 @@
     <link>https://www.prothomalo.com/religion/islam/5l7mnnnbta</link>
     <guid isPermaLink="false">bmf92v</guid>
     <pubDate>Wed, 07 Oct 2026 09:51:17 GMT</pubDate>
-    <description>মানুষ ভুল করে অনেক সময় নিজের দায় অন্যের ওপর চাপিয়ে দেয়। ‘ও আমাকে প্ররোচিত করেছে’, ‘বন্ধুরা না বললে আমি করতাম না’, ‘পরিস্থিতিই আমাকে বাধ্য করেছে’—এমন অনেক অজুহাত আমাদের পরিচিত। কিন্তু আল্লাহর আদালতে এসব অজুহাত কতটা কাজে আসবে? অপরাধীদের দাবি কেয়ামতের দিন মানুষক…</description>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, মানুষ ভুল করে অনেক সময় নিজের দায় অন্যের ওপর চাপিয়ে দেয়। ‘ও আমাকে প্ররোচিত করেছে’, ‘বন্ধুরা না বললে আমি করতাম না’, ‘পরিস্থিতিই আমাকে বাধ্য করেছে’। এ ঘটনায় আলোচিত: আমাকে, করেছে, অজুহাত, পরকালে।</description>
     <source url="https://www.prothomalo.com">Prothom Alo</source>
     <category>bangladesh</category>
     <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/593xqeft/GeminiGeneratedImagexn4vdzxn4vdzxn4v.jpg" medium="image"/>
@@ -92,520 +432,180 @@
     <link>https://www.prothomalo.com/sports/cricket/38wklc3ml0</link>
     <guid isPermaLink="false">5dez1m</guid>
     <pubDate>Wed, 07 Oct 2026 09:50:13 GMT</pubDate>
-    <description>ভারতের হয়ে ভুবনেশ্বর সর্বশেষ খেলেছিলেন ২০২২ সালের নভেম্বরে হওয়া টি–টুয়েন্টি বিশ্বকাপে। বাকি দুই সংস্করণে জাতীয় দলের হয়ে তিনি খেলেছেন আরও আগে।</description>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, ভারতের হয়ে ভুবনেশ্বর সর্বশেষ খেলেছিলেন ২০২২ সালের নভেম্বরে হওয়া টি। এ ঘটনায় আলোচিত: ভুবনেশ্বর, কুমার, ভারতের, সর্বশেষ।</description>
     <source url="https://www.prothomalo.com">Prothom Alo</source>
     <category>bangladesh</category>
     <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/hn6iw4jf/318066.webp" medium="image"/>
+  </item>
+  <item>
+    <title>রাশিয়া ‘সন্ত্রাসের কৌশল অনুসরণ করছে’, ইউক্রেনে প্রাণঘাতী হামলার পর বলেছেন ভন ডের লিয়েন</title>
+    <link>https://www.theguardian.com/world/live/2026/oct/07/russia-ukraine-war-zelenskyy-putin-france-protests-europe-latest-news-updates</link>
+    <guid isPermaLink="false">1hmh7ko</guid>
+    <pubDate>Wed, 07 Oct 2026 10:27:17 GMT</pubDate>
+    <description>The Guardian-এর প্রতিবেদনের ভিত্তিতে, ইউক্রেনের রাষ্ট্রপতি প্রিলুক্কি, ডনিপ্রো, ক্রেমেনচিক, জাপোরিজঝিয়া এবং কিয়েভের উপর ধারাবাহিক আক্রমণের বিষয়টি নিশ্চিত করেছেন আমরা পোল্যান্ডের অসট্রোলাকায় একটি বৃত্তিমূলক স্কুলে ছুরি হামলার খবর পাচ্ছি, যার ফলে কমপক্ষে সাতজন গুরুতরভাবে আহত হয়েছেন, রেপো হিসাবে।</description>
+    <source url="https://www.theguardian.com">The Guardian</source>
+    <category>world</category>
+    <media:content url="https://i.guim.co.uk/img/media/0e8acbf767edb072639be9d2d7d41a434c3f8544/188_28_1032_825/master/1032.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=3d76e1a19cc6e3ce5739802c2b0b9e12" medium="image"/>
   </item>
   <item>
     <title>‘শেখ হাসিনা ডিসেম্বরে ফিরলে কিছু হবে না’ ভাইরাল অডিওটি ওসির, জানাল ডিবি</title>
     <link>https://www.prothomalo.com/bangladesh/crime/zy8khxirk7</link>
     <guid isPermaLink="false">10s70jy</guid>
     <pubDate>Wed, 07 Oct 2026 09:49:35 GMT</pubDate>
-    <description>‘শেখ হাসিনা ডিসেম্বরে দেশে ফিরলে কিছু হবে না’—এমন মন্তব্য করা অডিওর কণ্ঠ ক্যান্টনমেন্ট থানার সাবেক ওসি রাকিবুল ইসলামের বলে নিশ্চিত করেছে ডিবি। আদালতের অনুমতি নিয়ে ভয়েস পরীক্ষার মাধ্যমে কণ্ঠ শনাক্ত করা হয়েছে।</description>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, ‘শেখ হাসিনা ডিসেম্বরে দেশে ফিরলে কিছু হবে না’। এ ঘটনায় আলোচিত: হাসিনা, ডিসেম্বরে, ফিরলে, ভাইরাল।</description>
     <source url="https://www.prothomalo.com">Prothom Alo</source>
     <category>bangladesh</category>
     <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-09-17/ib03v6bz/Rakibul-oc-01.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>ভারত নিউজিল্যান্ড সফর: ওডিআই স্কোয়াডের ঘোষণা কেন বিলম্বিত হয়েছিল</title>
+    <link>https://timesofindia.indiatimes.com/sports/cricket/india-vs-new-zealand/india-tour-of-new-zealand-why-odi-squad-announcement-was-delayed/articleshow/134762990.cms</link>
+    <guid isPermaLink="false">o8y88k</guid>
+    <pubDate>Wed, 07 Oct 2026 10:25:18 GMT</pubDate>
+    <description>Times of India-এর প্রতিবেদনের ভিত্তিতে, আগামী সপ্তাহে ভারত ও নিউজিল্যান্ডের মধ্যে আসন্ন ওয়ানডে সিরিজের স্কোয়াড ঘোষণা করা হবে । অস্ট্রেলিয়ার বিপক্ষে ভারত এ সমন্বিত অনানুষ্ঠানিক ওডিআই সিরিজের সময় নির্বাচকরা খেলোয়াড়দের মূল্যায়ন করছেন । মূল সিদ্ধান্ত গ্রহণকারীরা কীভাবে সম্ভাব্য ওডিআই খেলার দিকে নজর রাখছেন।</description>
+    <source url="https://timesofindia.indiatimes.com">Times of India</source>
+    <category>india</category>
+    <media:content url="https://static.toiimg.com/photo/msid-134763215,imgsize-118786.cms" medium="image"/>
   </item>
   <item>
     <title>এবার শীত কি কম হবে</title>
     <link>https://www.prothomalo.com/bangladesh/environment/ebaar-shiit-ki-km-hbe</link>
     <guid isPermaLink="false">sse357</guid>
     <pubDate>Wed, 07 Oct 2026 09:47:33 GMT</pubDate>
-    <description>এবার শীত কি কম হবে</description>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, এবার শীত কি কম হবে।</description>
     <source url="https://www.prothomalo.com">Prothom Alo</source>
     <category>bangladesh</category>
     <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/1t6syyv4/1__Rangamatihillsbusyness_of_lifebusyness_of_work07102026.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>গুগল ম্যাপস, ডিজাইনের ত্রুটি বা এএপি-যুগের পরিকল্পনা? Barapullah ট্রাফিক জঞ্জাল দোষারোপ খেলা ট্রিগার</title>
+    <link>https://www.hindustantimes.com/india-news/google-maps-design-flaw-or-aap-era-planning-barapullah-traffic-mess-triggers-blame-game-101791366993985.html</link>
+    <guid isPermaLink="false">1unvjg</guid>
+    <pubDate>Wed, 07 Oct 2026 10:46:43 GMT</pubDate>
+    <description>Hindustan Times-এর প্রতিবেদনের ভিত্তিতে, ফেজ-III করিডোরটি নোইডা লিংক রোডে মায়ুর বিহার ফেজ-I কে রিং রোডে সারাই কালে খানের সাথে সংযুক্ত করে এবং আশা করা হয়েছিল যে যানজট উল্লেখযোগ্যভাবে সহজ হবে ।</description>
+    <source url="https://www.hindustantimes.com">Hindustan Times</source>
+    <category>india</category>
+    
+  </item>
+  <item>
+    <title>&#39;আসোস হ্যাকড&#39; বার্তার পরে নিজেকে রক্ষা করার জন্য আমি কী করতে পারি?</title>
+    <link>https://www.bbc.co.uk/news/articles/ck1l3g8097rzo?at_medium=RSS&amp;at_campaign=rss</link>
+    <guid isPermaLink="false">pr2vo1</guid>
+    <pubDate>Wed, 07 Oct 2026 10:23:37 GMT</pubDate>
+    <description>BBC Business-এর প্রতিবেদনের ভিত্তিতে, আসোস বলেছেন যে লোকেরা অননুমোদিত বিজ্ঞপ্তির সাথে জড়িত হওয়া উচিত নয় এবং বলেছেন যে এটি আরও তথ্য সরবরাহ করবে ।</description>
+    <source url="https://www.bbc.com">BBC Business</source>
+    <category>business</category>
+    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e2d/live/e029b770-c218-11f1-a64c-550be9e3c66b.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>সাইবার জালিয়াতির শিকাররা ব্যাঙ্ক থেকে বিলম্ব এবং সামান্য জবাবদিহিতার মুখোমুখি হন</title>
+    <link>https://www.thehindu.com/news/national/cyber-fraud-victims-face-delays-and-little-accountability-from-banks/article71551486.ece</link>
+    <guid isPermaLink="false">1x7zy9z</guid>
+    <pubDate>Wed, 07 Oct 2026 10:38:34 GMT</pubDate>
+    <description>The Hindu-এর প্রতিবেদনের ভিত্তিতে, গত দুই থেকে তিন বছরে ১৩ % উত্তরদাতা সাইবার ক্রাইমের অভিজ্ঞতা অর্জন করেছেন, ৫৪ % ভুক্তভোগী ডিজিটাল আর্থিক জালিয়াতির অভিযোগ করেছেন; যদিও বেশিরভাগ ভুক্তভোগী ২৪ ঘন্টার মধ্যে ব্যাঙ্কের কাছে এসেছিলেন, অনেকে অননুমোদিত লেনদেন, দুর্বল সমর্থন এবং।</description>
+    <source url="https://www.thehindu.com">The Hindu</source>
+    <category>india</category>
+    <media:content url="https://th-i.thgim.com/public/news/national/xi12h2/article71555207.ece/alternates/LANDSCAPE_1200/iStock-1304299796.jpg" medium="image"/>
   </item>
   <item>
     <title>চোরাচালান মামলার আসামি যুবদল নেতা, তবু হয়েছেন আইনশৃঙ্খলা কমিটির সদস্য</title>
     <link>https://www.prothomalo.com/bangladesh/district/wv4u73dheg</link>
     <guid isPermaLink="false">5vpmh5</guid>
     <pubDate>Wed, 07 Oct 2026 09:45:27 GMT</pubDate>
-    <description>যুবদল নেতা বেলাল হোসেন খাসেরহাট বাজারের একজন রড-সিমেন্টের ব্যবসায়ী। বিগত ফ্যাসিবাদ বিরোধী আন্দোলনে তিনি সক্রিয় ছিলেন।</description>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, যুবদল নেতা বেলাল হোসেন খাসেরহাট বাজারের একজন রড। এ ঘটনায় আলোচিত: যুবদল, চোরাচালান, মামলার, আসামি।</description>
     <source url="https://www.prothomalo.com">Prothom Alo</source>
     <category>bangladesh</category>
     <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/us6sq6dy/1-image-Template-2.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>তামিলনাডু স্যারের নীরবতা নিয়ে প্রশ্ন তোলার পরে ডিএমকে রাহুলের সিইসি বিরোধী বিক্ষোভকে সমর্থন করেছে</title>
+    <link>https://timesofindia.indiatimes.com/india/dmks-mixed-signals-on-rahul-ex-ally-backs-cong-mps-anti-cec-protest-day-after-questioning-silence-on-tamil-nadu-sir/articleshow/134762580.cms</link>
+    <guid isPermaLink="false">19ro7de</guid>
+    <pubDate>Wed, 07 Oct 2026 10:21:52 GMT</pubDate>
+    <description>Times of India-এর প্রতিবেদনের ভিত্তিতে, তামিলনাডু স্যারের নীরবতা নিয়ে প্রশ্ন তোলার পরে ডিএমকে রাহুলের সিইসি বিরোধী বিক্ষোভকে সমর্থন করেছে।</description>
+    <source url="https://timesofindia.indiatimes.com">Times of India</source>
+    <category>india</category>
+    <media:content url="https://static.toiimg.com/photo/msid-134763107,imgsize-68848.cms" medium="image"/>
+  </item>
+  <item>
+    <title>নির্বাচনের আগে বিজেপির কাজ করার উপায়: সিবিআইয়ের অভিযানে ভাগবত মান</title>
+    <link>https://www.thehindu.com/news/national/punjab/bjps-way-of-working-ahead-of-elections-bhagwant-mann-on-cbi-raids/article71555152.ece</link>
+    <guid isPermaLink="false">1kxwdos</guid>
+    <pubDate>Wed, 07 Oct 2026 10:34:43 GMT</pubDate>
+    <description>The Hindu-এর প্রতিবেদনের ভিত্তিতে, ফেডারেল এজেন্সির তদন্তের নির্দেশ দিয়ে হাইকোর্ট এর আগে উল্লেখ করেছিল যে এনফোর্সমেন্ট ডিরেক্টরেট প্রাইমা ফেসি দ্বারা ভাগ করা উপাদানটি দুর্নীতির কাজে কর্মকর্তাদের জড়িত থাকার ইঙ্গিত দেয় ।</description>
+    <source url="https://www.thehindu.com">The Hindu</source>
+    <category>india</category>
+    <media:content url="https://th-i.thgim.com/public/incoming/fflhiq/article71555183.ece/alternates/LANDSCAPE_1200/PTI10_07_2026_000176B.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>শিশু হাসপাতালের অনুদানের অপব্যবহারের অভিযোগে শ্রীলঙ্কার প্রাক্তন ফার্স্ট লেডি গ্রেপ্তার</title>
+    <link>https://www.bbc.co.uk/news/articles/ck0e0n3xzvp4o?at_medium=RSS&amp;at_campaign=rss</link>
+    <guid isPermaLink="false">1yu2xyg</guid>
+    <pubDate>Wed, 07 Oct 2026 09:49:31 GMT</pubDate>
+    <description>BBC World-এর প্রতিবেদনের ভিত্তিতে, ৭৩ বছর বয়সী এই ব্যক্তিকে তার দাতব্য সংস্থার অপব্যবহারের সাথে জড়িত থাকার অভিযোগে গ্রেপ্তার করা হয়েছে ।</description>
+    <source url="https://www.bbc.com">BBC World</source>
+    <category>world</category>
+    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd24/live/cf2b2a00-c22f-11f1-bc2e-018d645d8d21.jpg" medium="image"/>
   </item>
   <item>
     <title>শাপলা চত্বর মামলা: হাসিনাসহ ৪১ আসামির শুনানি ১ নভেম্বর</title>
     <link>https://www.prothomalo.com/video/bangladesh/deo12urnn0</link>
     <guid isPermaLink="false">1ijn61c</guid>
     <pubDate>Wed, 07 Oct 2026 09:41:44 GMT</pubDate>
-    <description>শাপলা চত্বরের মানবতাবিরোধী অপরাধের মামলায় অভিযোগ গঠনের শুনানি পিছিয়ে আগামী ১ নভেম্বর করেছেন ট্রাইব্যুনাল। শেখ হাসিনাসহ ৪১ আসামির মধ্যে ৩০ জন পলাতক। বিস্তারিত দেখুন ভিডিও প্রতিবেদনে…</description>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, শাপলা চত্বরের মানবতাবিরোধী অপরাধের মামলায় অভিযোগ গঠনের শুনানি পিছিয়ে আগামী ১ নভেম্বর করেছেন ট্রাইব্যুনাল। শেখ হাসিনাসহ ৪১ আসামির মধ্যে ৩০ জন পলাতক। বিস্তারিত প্রতিবেদনে…। এ ঘটনায় আলোচিত: শাপলা, হাসিনাসহ, আসামির, শুনানি।</description>
     <source url="https://www.prothomalo.com">Prothom Alo</source>
     <category>bangladesh</category>
     <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/7o5evu9g/web.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>মাদ্রাজ হাইকোর্ট লেক বেড খনন মামলায় ডিএমকে-র প্রাক্তন মন্ত্রী ইভি ভেলুকে অন্তর্বর্তীকালীন ত্রাণ প্রত্যাখ্যান করেছে</title>
+    <link>https://www.thehindu.com/news/national/tamil-nadu/madras-high-court-denies-interim-relief-to-dmk-ex-minister-ev-velu-his-son-in-lake-bed-excavation-case/article71554831.ece</link>
+    <guid isPermaLink="false">gz5dhl</guid>
+    <pubDate>Wed, 07 Oct 2026 10:33:42 GMT</pubDate>
+    <description>The Hindu-এর প্রতিবেদনের ভিত্তিতে, বিচারপতি ভি লক্ষ্মীনারায়ণন আদেশের নোটিশ, ৬ নভেম্বরের মধ্যে ফেরতযোগ্য, তাদের বিরুদ্ধে নিবন্ধিত এফআইআর বাতিল করার জন্য দুই অভিযুক্তের দায়ের করা পিটিশনের উপর ডিভিএসিতে।</description>
+    <source url="https://www.thehindu.com">The Hindu</source>
+    <category>india</category>
+    <media:content url="https://th-i.thgim.com/public/incoming/25fjmt/article71555181.ece/alternates/LANDSCAPE_1200/9712_9_4_2026_15_47_27_1__DSC8481.JPG" medium="image"/>
+  </item>
+  <item>
+    <title>প্রধানমন্ত্রীর ভাষণের আগে শিক্ষার্থীদের বিক্ষোভে স্টান্ট গ্রেনেড ব্যবহার স্থগিত করল ফ্রান্স</title>
+    <link>https://www.france24.com/en/video/20261007-france-suspends-stun-grenade-use-at-student-protests-ahead-of-pm-speech</link>
+    <guid isPermaLink="false">1veuth4</guid>
+    <pubDate>Wed, 07 Oct 2026 10:55:39 GMT</pubDate>
+    <description>France 24-এর প্রতিবেদনের ভিত্তিতে, ফ্রান্স ছাত্র-নেতৃত্বাধীন বিক্ষোভে পুলিশের স্টান গ্রেনেড ব্যবহার স্থগিত করেছে, স্বরাষ্ট্রমন্ত্রী বুধবার বলেছেন, দেশজুড়ে কখনও কখনও সহিংস বিক্ষোভের দিন পরে পুলিশি বর্বরতার অভিযোগ উঠেছিল । দশ হাজার পিইও।</description>
+    <source url="https://www.france24.com">France 24</source>
+    <category>world</category>
+    <media:content url="https://s.france24.com/media/display/e592217e-c23c-11f1-956e-13e372f41e70/w:1024/p:16x9/EN-20261007-101358-101934-CS-01.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>ইস্রায়েলি কাগজপত্র 7 অক্টোবর হামলার স্মরণে, তিন বছর পরে</title>
+    <link>https://www.france24.com/en/tv-shows/press-review/20261007-israeli-papers-commemorate-october-7-attacks-three-years-on</link>
+    <guid isPermaLink="false">3qiklk</guid>
+    <pubDate>Wed, 07 Oct 2026 10:55:26 GMT</pubDate>
+    <description>France 24-এর প্রতিবেদনের ভিত্তিতে, প্রেস রিভিউ – বুধবার, অক্টোবর ৭: ৭ অক্টোবরের হামলার তিন বছর পূর্তি উপলক্ষে কাগজপত্র । কিন্তু প্রথমত: ফ্রান্স জুড়ে যে উচ্চ বিদ্যালয়ের বিক্ষোভ ছড়িয়ে পড়েছে তা দেশে এবং বিদেশে প্রথম পাতা তৈরি করে । এছাড়াও, আর্জেন্টাইন প্রেস লিয়নে বন্ধ তরঙ্গ।</description>
+    <source url="https://www.france24.com">France 24</source>
+    <category>world</category>
+    <media:content url="https://s.france24.com/media/display/41db37e6-c23c-11f1-91d3-73f176a2394c/w:1024/p:16x9/capture-1854932026ac622dbf09dd2-99509392.jpg" medium="image"/>
   </item>
   <item>
     <title>বিষাক্ত ইনজেকশনে মৃত্যুদণ্ড কার্যকর করার চেষ্টায় বেঁচে যাওয়া সেই মার্কিন নারী কথা বলছেন</title>
     <link>https://www.prothomalo.com/world/usa/ztp6tkrtp1</link>
     <guid isPermaLink="false">s7k31</guid>
     <pubDate>Wed, 07 Oct 2026 09:40:00 GMT</pubDate>
-    <description>বিশেষজ্ঞ ও ক্রিস্টার আইনি দলের মতে, তাঁর এভাবে সুস্থ হয়ে ওঠা নজিরবিহীন। মনে করা হচ্ছে, বিষাক্ত ইনজেকশন প্রয়োগের পরও বেঁচে যাওয়া একমাত্র ব্যক্তি তিনিই।</description>
+    <description>Prothom Alo-এর প্রতিবেদন অনুযায়ী, বিশেষজ্ঞ ও ক্রিস্টার আইনি দলের মতে, তাঁর এভাবে সুস্থ হয়ে ওঠা নজিরবিহীন। মনে করা হচ্ছে, বিষাক্ত ইনজেকশন প্রয়োগের পরও বেঁচে যাওয়া একমাত্র ব্যক্তি তিনিই। এ ঘটনায় আলোচিত: বিষাক্ত, বেঁচে, ইনজেকশনে, মৃত্যুদণ্ড।</description>
     <source url="https://www.prothomalo.com">Prothom Alo</source>
     <category>bangladesh</category>
     <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-01/6evl3vh5/Christa-Pike.jpg" medium="image"/>
   </item>
   <item>
-    <title>৭৮তম ফ্রাঙ্কফুর্ট আন্তর্জাতিক বইমেলা ২০২৬–এর জমকালো উদ্বোধন</title>
-    <link>https://nagorik.prothomalo.com/durporobash/z14p91plhu</link>
-    <guid isPermaLink="false">1fvrd78</guid>
-    <pubDate>Wed, 07 Oct 2026 09:39:02 GMT</pubDate>
-    <description>৭৮তম ফ্রাঙ্কফুর্ট আন্তর্জাতিক বইমেলা ২০২৬ উদ্বোধন করা হয়েছে। ৭ থেকে ১১ অক্টোবর মেলা সবার জন্য খোলা।</description>
-    <source url="https://www.prothomalo.com">Prothom Alo</source>
-    <category>bangladesh</category>
-    <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/ceg19kfg/10.jpeg" medium="image"/>
-  </item>
-  <item>
-    <title>Russia ‘pursuing strategy of terror’, EU’s von der Leyen says after deadly strikes on Ukraine – Europe live</title>
-    <link>https://www.theguardian.com/world/live/2026/oct/07/russia-ukraine-war-zelenskyy-putin-france-protests-europe-latest-news-updates</link>
-    <guid isPermaLink="false">1hmh7ko</guid>
-    <pubDate>Wed, 07 Oct 2026 10:14:30 GMT</pubDate>
-    <description>Ukraine president confirms series of attacks on Pryluky, Dnipro, Kremenchik, Zaporizhzhia and Kyiv We are getting reports of a knife attack at a vocational school in Ostrołęka, Poland, which left at least seven people injured, including two seriously, as repo…</description>
-    <source url="https://www.theguardian.com">The Guardian</source>
+    <title>ফ্রান্স সরকার দেশব্যাপী ছাত্র বিক্ষোভ শান্ত করার জন্য ঝাঁপিয়ে পড়েছে</title>
+    <link>https://www.france24.com/en/video/20261007-french-government-scrambles-to-calm-nationwide-student-protests</link>
+    <guid isPermaLink="false">18ejwju</guid>
+    <pubDate>Wed, 07 Oct 2026 10:54:38 GMT</pubDate>
+    <description>France 24-এর প্রতিবেদনের ভিত্তিতে, ফ্রান্স সরকার সারা দেশে ছড়িয়ে পড়া এক সপ্তাহের উচ্চ বিদ্যালয়ের ছাত্র বিক্ষোভের পর বিক্ষোভকারীদের শান্ত করার চেষ্টা করছে । রাষ্ট্রপতি এমমানুয়েল ম্যাক্রোঁ সোমবার তার প্রধানমন্ত্রী, স্বরাষ্ট্রমন্ত্রী এবং শিক্ষামন্ত্রীর সাথে একটি বৈঠক করেছেন।</description>
+    <source url="https://www.france24.com">France 24</source>
     <category>world</category>
-    <media:content url="https://i.guim.co.uk/img/media/0e8acbf767edb072639be9d2d7d41a434c3f8544/188_28_1032_825/master/1032.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=3d76e1a19cc6e3ce5739802c2b0b9e12" medium="image"/>
-  </item>
-  <item>
-    <title>Photos: Three years of Israel’s war on Gaza as tent cities spread amid ruin</title>
-    <link>https://www.aljazeera.com/gallery/2026/10/7/photos-three-years-of-israels-war-on-gaza-as-tent-cities-spread-amid-ruin?traffic_source=rss</link>
-    <guid isPermaLink="false">h091aw</guid>
-    <pubDate>Wed, 07 Oct 2026 09:55:26 GMT</pubDate>
-    <description>Tent cities in Gaza grow as families mourn the dead, care for the injured, and endure relentless displacement.</description>
-    <source url="https://www.aljazeera.com">Al Jazeera</source>
-    <category>world</category>
-    
-  </item>
-  <item>
-    <title>Jaguar’s first EV looks just like its divisive concept car</title>
-    <link>https://www.theverge.com/transportation/1006536/jaguar-type-01-design-specs-price-reveal</link>
-    <guid isPermaLink="false">pknd95</guid>
-    <pubDate>Wed, 07 Oct 2026 10:03:46 GMT</pubDate>
-    <description>The Type 01, Jaguar&#39;s most important and divisive car in years, has arrived. The production follow-up to the polarising Type 00 concept, Jaguar says the electric, four-door grand tourer is its most powerful road car ever. Even though the Type 00&#39;s design chie…</description>
-    <source url="https://www.theverge.com">The Verge</source>
-    <category>tech</category>
-    <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/SILVER_FRONT_7-8_261007092507.jpeg?quality=90&amp;#038;strip=all&amp;#038;crop=0,0,100,100" medium="image"/>
-  </item>
-  <item>
-    <title>Russell to start from back of Singapore grid after penalty</title>
-    <link>https://www.bbc.co.uk/sport/formula1/articles/cm0qkdk37gy0o?at_medium=RSS&amp;at_campaign=rss</link>
-    <guid isPermaLink="false">1dkg1em</guid>
-    <pubDate>Wed, 07 Oct 2026 10:01:59 GMT</pubDate>
-    <description>Britain&#39;s George Russell will start from the back of the grid in Sunday&#39;s Singapore Grand Prix because of a power-unit penalty from last weekend&#39;s race.</description>
-    <source url="https://www.bbc.com">BBC Sport</source>
-    <category>sports</category>
-    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/24ae/live/22440600-c233-11f1-be2f-0fbd447d6e43.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>California pair charged with abusing at least 14 surrogate-born children</title>
-    <link>https://www.bbc.co.uk/news/articles/crx23dvnp8vxo?at_medium=RSS&amp;at_campaign=rss</link>
-    <guid isPermaLink="false">g4o3qw</guid>
-    <pubDate>Wed, 07 Oct 2026 09:38:00 GMT</pubDate>
-    <description>Guojun Xuan and Silvia Zhang were arrested at their Arcadia mansion after 21 children were removed from their custody last year.</description>
-    <source url="https://www.bbc.com">BBC World</source>
-    <category>world</category>
-    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4102/live/be6f94a0-c228-11f1-b7d8-6f930589c871.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>রোদে ধান, রোজগারে সংসার</title>
-    <link>https://www.prothomalo.com/photo/bangladesh/22ee5i1815</link>
-    <guid isPermaLink="false">5r8imo</guid>
-    <pubDate>Wed, 07 Oct 2026 09:30:06 GMT</pubDate>
-    <description>ব্রাহ্মণবাড়িয়ার আশুগঞ্জের মেঘনাপাড়ের বিওসি ঘাট দেশের অন্যতম বড় ধানের মোকাম।</description>
-    <source url="https://www.prothomalo.com">Prothom Alo</source>
-    <category>bangladesh</category>
-    <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/dy1gffl2/1.-brahmanbaria-ashuganj-rice-workers-palo-07102026.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Nobel chemistry prize awarded to Henri Kagan, Kenso Soai</title>
-    <link>https://en.prothomalo.com/international/zmdis3c41t</link>
-    <guid isPermaLink="false">qjrbxr</guid>
-    <pubDate>Wed, 07 Oct 2026 09:51:10 GMT</pubDate>
-    <description>Scientists Henri Kagan and Kenso Soai won the 2026 Nobel Prize in Chemistry &quot;for the discovery of non-linear effects and autocatalysis in asymmetric organic synthesis,&quot; the award-giving body said on Wednesday. The more than a century-old prize is awarded by t…</description>
-    <source url="https://en.prothomalo.com">Prothom Alo EN</source>
-    <category>bangladesh</category>
-    <media:content url="https://media.prothomalo.com/prothomalo-english/2026-10-07/q6n2lz8o/HUBMvFsWQAEdreq.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Daily Quiz: On Asian Games 2026</title>
-    <link>https://www.thehindu.com/sport/daily-quiz-on-asian-games/article71550460.ece</link>
-    <guid isPermaLink="false">1h24ma7</guid>
-    <pubDate>Wed, 07 Oct 2026 10:16:42 GMT</pubDate>
-    <description>A quiz on India’s show at the recently concluded Asian Games</description>
-    <source url="https://www.thehindu.com">The Hindu</source>
-    <category>india</category>
-    <media:content url="https://th-i.thgim.com/public/incoming/4dj464/article71550453.ece/alternates/LANDSCAPE_1200/GS6GJE43K.1G56GKGP09.1.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>France halts police use of stun grenades at student protests</title>
-    <link>https://www.aljazeera.com/news/2026/10/7/france-halts-police-use-of-stun-grenades-at-student-protests?traffic_source=rss</link>
-    <guid isPermaLink="false">cw4kuy</guid>
-    <pubDate>Wed, 07 Oct 2026 09:41:42 GMT</pubDate>
-    <description>Prime Minister Sebastien Lecornu to make public address after thousands rally to demand more funding for education.</description>
-    <source url="https://www.aljazeera.com">Al Jazeera</source>
-    <category>world</category>
-    
-  </item>
-  <item>
-    <title>Gavin and Stacey creators Jones and Corden reveal celebrity cast of new show</title>
-    <link>https://www.bbc.co.uk/news/articles/ckjrw4xvvglgo?at_medium=RSS&amp;at_campaign=rss</link>
-    <guid isPermaLink="false">1tqcbej</guid>
-    <pubDate>Wed, 07 Oct 2026 10:06:48 GMT</pubDate>
-    <description>Ruth Jones and James Corden&#39;s new show also stars X-Men&#39;s James McAvoy and Harry Potter&#39;s Jim Broadbent.</description>
-    <source url="https://www.bbc.com">BBC Entertainment</source>
-    <category>entertainment</category>
-    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28c5/live/aa3f8c70-c236-11f1-bc2e-018d645d8d21.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>CEC row LIVE: Fight won&#39;t be easy, be prepared for prolonged agitation: CJP ahead of October 10 protest</title>
-    <link>https://www.thehindu.com/news/national/cec-row-gyanesh-kumar-india-bloc-march-election-commission-sir-delhi-police-cjp-jantar-mantar-protest-live-updates-october-7-2026/article71554188.ece</link>
-    <guid isPermaLink="false">1twfdvy</guid>
-    <pubDate>Wed, 07 Oct 2026 10:14:00 GMT</pubDate>
-    <description>We will not stop till SIR is rolled back, the voter rolls are restored to January 2025 and law to appoint the Election Commissioners is reformed, CJP says</description>
-    <source url="https://www.thehindu.com">The Hindu</source>
-    <category>india</category>
-    
-  </item>
-  <item>
-    <title>Nobel Prize 2026: When will the awards be announced, date and timings in IST</title>
-    <link>https://www.thehindu.com/news/international/nobel-prize-2026-date-timings-ist-how-to-watch/article71546193.ece</link>
-    <guid isPermaLink="false">1rzhc1m</guid>
-    <pubDate>Wed, 07 Oct 2026 10:13:46 GMT</pubDate>
-    <description>Nobel Prizes are among the world’s most prestigious awards and are highly anticipated each year. The prize in physiology or medicine to be announced on October 5</description>
-    <source url="https://www.thehindu.com">The Hindu</source>
-    <category>india</category>
-    <media:content url="https://th-i.thgim.com/public/incoming/c8gu82/article71546210.ece/alternates/LANDSCAPE_1200/image.jpeg" medium="image"/>
-  </item>
-  <item>
-    <title>ফ্রান্সে শিক্ষার্থীদের বিক্ষোভে সহিংসতা, সপ্তাহজুড়ে ক্লাস স্থগিত</title>
-    <link>https://www.prothomalo.com/video/international/j1q3gyvndx</link>
-    <guid isPermaLink="false">razw5s</guid>
-    <pubDate>Wed, 07 Oct 2026 09:20:00 GMT</pubDate>
-    <description>ফ্রান্সজুড়ে শিক্ষার্থীদের আন্দোলন তীব্র হয়েছে। ৬ অক্টোবরের দেশব্যাপী কর্মসূচিতে আড়াই লাখের বেশি মানুষ অংশ নেন। পুলিশের সঙ্গে বিক্ষোভকারীদের সংঘর্ষের পর হাইস্কুলের ক্লাস স্থগিত করেছে সরকার। বিস্তারিত ভিডিও প্রতিবেদনে…</description>
-    <source url="https://www.prothomalo.com">Prothom Alo</source>
-    <category>bangladesh</category>
-    <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/60y9hsb2/france-protest.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>ফ্রাঙ্কফুর্ট আন্তর্জাতিক বইমেলা শুরু হলো</title>
-    <link>https://www.prothomalo.com/world/europe/3qncsfhgo4</link>
-    <guid isPermaLink="false">2a9j8a</guid>
-    <pubDate>Wed, 07 Oct 2026 09:20:00 GMT</pubDate>
-    <description>উদ্বোধনী অনুষ্ঠানের প্রধান বক্তা চেক লেখক রাদকা ডেনেমারকোভা বলেন, গ্রন্থাগার পুড়িয়ে দেওয়া হলো নির্বুদ্ধিতার সবচেয়ে সহজ পথ। প্রয়োজন শান্ত মাথা, স্বচ্ছ চিন্তা, স্বাধীন প্রকাশনা সংস্থা।</description>
-    <source url="https://www.prothomalo.com">Prothom Alo</source>
-    <category>bangladesh</category>
-    <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/7494whim/BF-1.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>ককরোচরা মোদির ‘তিলে তিলে’ গড়া ভাবমূর্তি চুরমার করে দিয়েছে</title>
-    <link>https://www.prothomalo.com/opinion/interview/0ufum3d4jk</link>
-    <guid isPermaLink="false">1r6at0o</guid>
-    <pubDate>Wed, 07 Oct 2026 09:19:23 GMT</pubDate>
-    <description>ভারতের চলমান রাজনৈতিক পরিস্থিতি নিয়ে পুলিৎজার পুরস্কার পাওয়া লেখক অরুন্ধতী রায় কথা বলেছেন আল জাজিরার সঙ্গে। ভিডিও কনফারেন্সে সাক্ষাৎকারটি নিয়েছেন সাংবাদিক ইমরান খান।</description>
-    <source url="https://www.prothomalo.com">Prothom Alo</source>
-    <category>bangladesh</category>
-    <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/h6aoej1n/arundhati3.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>France’s Henri Kagan, Japan’s Kenso Soai win 2026 Nobel Chemistry Prize</title>
-    <link>https://timesofindia.indiatimes.com/science/frances-henri-kagan-japans-soai-win-2026-nobel-chemistry-prize-for-autocatalysis/articleshow/134762183.cms</link>
-    <guid isPermaLink="false">4k3ss6</guid>
-    <pubDate>Wed, 07 Oct 2026 09:56:30 GMT</pubDate>
-    <description>The Nobel Prize in Chemistry is awarded annually as part of the Nobel Prizes established under the will of Swedish inventor and industrialist Alfred Nobel. Nobel, who made his fortune through inventions including dynamite, specified that prizes should be awar…</description>
-    <source url="https://timesofindia.indiatimes.com">Times of India</source>
-    <category>india</category>
-    <media:content url="https://static.toiimg.com/photo/msid-134762343,imgsize-114804.cms" medium="image"/>
-  </item>
-  <item>
-    <title>South Korea to review military service exemption after Asian Games row</title>
-    <link>https://www.bbc.co.uk/sport/articles/cqrky4y0v2pdo?at_medium=RSS&amp;at_campaign=rss</link>
-    <guid isPermaLink="false">fk5fq</guid>
-    <pubDate>Wed, 07 Oct 2026 09:48:42 GMT</pubDate>
-    <description>South Korea are discussing making changes to military exemptions for athletes after Asian Games controversy.</description>
-    <source url="https://www.bbc.com">BBC Sport</source>
-    <category>sports</category>
-    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70bf/live/4a199cc0-c22f-11f1-be2f-0fbd447d6e43.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Royal Mail plans to cut 2,500 head office jobs</title>
-    <link>https://www.bbc.co.uk/news/articles/cwvgdld13e3eo?at_medium=RSS&amp;at_campaign=rss</link>
-    <guid isPermaLink="false">1br8w9g</guid>
-    <pubDate>Wed, 07 Oct 2026 09:55:07 GMT</pubDate>
-    <description>The postal service firm wants to cut the head office and other jobs by the end of 2027.</description>
-    <source url="https://www.bbc.com">BBC Business</source>
-    <category>business</category>
-    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f14c/live/dee1ef00-c235-11f1-be2f-0fbd447d6e43.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Bombay HC questions ECI over deletion of voter names during SIR; points to rule on roll</title>
-    <link>https://www.thehindu.com/news/national/maharashtra/bombay-high-court-questions-eci-on-deleting-names-during-sir/article71554417.ece</link>
-    <guid isPermaLink="false">1frzq0w</guid>
-    <pubDate>Wed, 07 Oct 2026 10:09:55 GMT</pubDate>
-    <description>If a voter has changed residence, the ECI cannot ask the voter to submit the enumeration form, the Bench said.</description>
-    <source url="https://www.thehindu.com">The Hindu</source>
-    <category>india</category>
-    <media:content url="https://th-i.thgim.com/public/incoming/diio94/article71554918.ece/alternates/LANDSCAPE_1200/HDFC-Bank-plansGDIGF5IB0.3.jpg.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>এআই আসলে কী</title>
-    <link>https://www.prothomalo.com/technology/artificial-intelligence/ua3btpzinj</link>
-    <guid isPermaLink="false">19qhpvk</guid>
-    <pubDate>Wed, 07 Oct 2026 09:17:15 GMT</pubDate>
-    <description>বিশেষজ্ঞরা তাই সব সময় পরামর্শ দেন এআইয়ের উত্তরকে চূড়ান্ত সত্য না ধরে একটা প্রাথমিক ধারণা হিসেবে নিতে। পরে নিজে যাচাই-বাছাই করে চূড়ান্ত করতে।</description>
-    <source url="https://www.prothomalo.com">Prothom Alo</source>
-    <category>bangladesh</category>
-    <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/rirch2yn/Capture.PNG" medium="image"/>
-  </item>
-  <item>
-    <title>RBI MPC meeting highlights: Repo rate hiked to 5.5%; rate cuts off the table in near term, Governor Sanjay Malhotra says</title>
-    <link>https://www.thehindu.com/business/rbi-monetary-policy-meeting-decision-on-repo-rate-live-updates-october-7-2026/article71554262.ece</link>
-    <guid isPermaLink="false">mq0jwk</guid>
-    <pubDate>Wed, 07 Oct 2026 10:09:40 GMT</pubDate>
-    <description>Rate hike after nearly three-and-a half years comes as inflation pressures rise due to the continuing West Asia conflict; policy stance revised to &#39;calibrated tightening&#39; from &#39;neutral&#39;</description>
-    <source url="https://www.thehindu.com">The Hindu</source>
-    <category>india</category>
-    
-  </item>
-  <item>
-    <title>যান্ত্রিক ত্রুটিতে বড়পুকুরিয়া তাপবিদ্যুৎকেন্দ্রের উৎপাদন পুরোপুরি বন্ধ</title>
-    <link>https://www.prothomalo.com/bangladesh/district/bdq9hqramy</link>
-    <guid isPermaLink="false">jsgyfn</guid>
-    <pubDate>Wed, 07 Oct 2026 09:15:34 GMT</pubDate>
-    <description>সংস্কারকাজের জন্য দ্বিতীয় ইউনিট প্রায় ছয় বছর ধরে বন্ধ। সচল থাকা দুটি ইউনিট এখন যান্ত্রিক ত্রুটিতে বন্ধ হওয়ায় পুরো কেন্দ্রের উৎপাদন বন্ধ হয়ে গেছে।</description>
-    <source url="https://www.prothomalo.com">Prothom Alo</source>
-    <category>bangladesh</category>
-    <media:content url="https://media.prothomalo.com/prothomalo-bangla/2021-04/843d97b0-117b-41ea-8ae3-49b674794b4e/dfd8b874-fb92-4db0-8030-436948f2f2b7.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Israelis mark three years since Hamas attack that set off Gaza assault</title>
-    <link>https://www.thehindu.com/news/international/israelis-mark-three-years-since-hamas-attack-that-set-off-gaza-assault/article71554506.ece</link>
-    <guid isPermaLink="false">1m5r5ko</guid>
-    <pubDate>Wed, 07 Oct 2026 10:08:03 GMT</pubDate>
-    <description>The anniversary is the first for Israelis without any hostages still held in Gaza, ⁠with those dead and alive exchanged in swaps with Hamas for Palestinians held in Israeli jails. The remains of the last Israeli hostage were recovered in January</description>
-    <source url="https://www.thehindu.com">The Hindu</source>
-    <category>india</category>
-    <media:content url="https://th-i.thgim.com/public/incoming/hoddgw/article71554519.ece/alternates/LANDSCAPE_1200/Mideast_Wars_Three_Years__452.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>IMF chief urges governments to tighten belts as global debt levels soar</title>
-    <link>https://www.theguardian.com/business/2026/oct/07/imf-chief-kristalina-georgieva-urges-governments-tighten-belts-global-debt-levels-soar</link>
-    <guid isPermaLink="false">127yqka</guid>
-    <pubDate>Wed, 07 Oct 2026 10:14:35 GMT</pubDate>
-    <description>Kristalina Georgieva says big economies will have to make ‘very touch choices’ as soaring bond yields hit budgets Business live – latest updates The head of the International Monetary Fund has called on governments across big economies to tighten their belts…</description>
-    <source url="https://www.theguardian.com">Guardian Tech</source>
-    <category>tech</category>
-    <media:content url="https://i.guim.co.uk/img/media/182536b4f647e0f834b63a8ddfd9edcf6be3343a/28_0_3867_3093/master/3867.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=cfba16b757710c15e09988e2175ef74f" medium="image"/>
-  </item>
-  <item>
-    <title>US Troops Face Curfew, Alcohol Ban In Japan&#39;s Okinawa Amid Murder Probe</title>
-    <link>https://www.ndtv.com/world-news/us-troops-face-curfew-alcohol-ban-in-japans-okinawa-amid-murder-probe-12150399#publisher=newsstand</link>
-    <guid isPermaLink="false">jubee0</guid>
-    <pubDate>Wed, 07 Oct 2026 09:43:42 GMT</pubDate>
-    <description>The case is the latest in a string of incidents stretching back years that have fuelled unease over the large US troop presence on the island chain near Taiwan and China.</description>
-    <source url="https://www.ndtv.com">NDTV</source>
-    <category>india</category>
-    <media:content url="https://c.ndtvimg.com/2026-10/tii7pvp4_us-troops-japan-reuters_625x300_07_October_26.jpeg" medium="image"/>
-  </item>
-  <item>
-    <title>First time in top 10! Shreyas Iyer leaps 18 places in T20I rankings after 43-ball 102*</title>
-    <link>https://timesofindia.indiatimes.com/sports/cricket/news/first-time-in-top-10-shreyas-iyer-leaps-18-places-in-t20i-rankings-after-maiden-century/articleshow/134762221.cms</link>
-    <guid isPermaLink="false">1k36xpj</guid>
-    <pubDate>Wed, 07 Oct 2026 09:50:44 GMT</pubDate>
-    <description>Shreyas Iyer has made a significant leap to seventh place in T20I batting rankings after his maiden century. Axar Patel has also joined the top 10 bowlers, moving up to seventh place following impressive performances. In ODI rankings, Shubman Gill extended hi…</description>
-    <source url="https://timesofindia.indiatimes.com">Times of India</source>
-    <category>india</category>
-    <media:content url="https://static.toiimg.com/photo/msid-134762310,imgsize-100778.cms" medium="image"/>
-  </item>
-  <item>
-    <title>This Bengaluru engineer has built an AI-powered app to report potholes</title>
-    <link>https://www.thehindu.com/news/cities/bangalore/this-bengaluru-engineer-has-built-an-ai-powered-app-to-report-potholes/article71550124.ece</link>
-    <guid isPermaLink="false">12anqw7</guid>
-    <pubDate>Wed, 07 Oct 2026 10:05:42 GMT</pubDate>
-    <description>Pothole Reporter uses AI to detect potholes, map their locations, identify the responsible civic body and contractor, and send complaints to municipal authorities</description>
-    <source url="https://www.thehindu.com">The Hindu</source>
-    <category>india</category>
-    <media:content url="https://th-i.thgim.com/public/incoming/276ak8/article71550182.ece/alternates/LANDSCAPE_1200/ALL_7135.JPG" medium="image"/>
-  </item>
-  <item>
-    <title>Indian Filmmaker Arfat Sheikh Detained By ICE Agents At US Airport &quot;Without Warrant&quot;</title>
-    <link>https://www.ndtv.com/world-news/indian-filmmaker-arfat-sheikh-detained-by-ice-agents-at-us-airport-without-warrant-12150544#publisher=newsstand</link>
-    <guid isPermaLink="false">11mzjf6</guid>
-    <pubDate>Wed, 07 Oct 2026 09:42:15 GMT</pubDate>
-    <description>Sheikh had just stepped off his flight when he was surrounded and detained, &quot;even as he presented his immigration paperwork&quot;.</description>
-    <source url="https://www.ndtv.com">NDTV</source>
-    <category>india</category>
-    <media:content url="https://c.ndtvimg.com/2026-10/2da3382k_arfat-sheikh_625x300_07_October_26.jpeg" medium="image"/>
-  </item>
-  <item>
-    <title>What can I do to protect myself after &#39;Asos hacked&#39; message?</title>
-    <link>https://www.bbc.co.uk/news/articles/ck1l3g8097rzo?at_medium=RSS&amp;at_campaign=rss</link>
-    <guid isPermaLink="false">pr2vo1</guid>
-    <pubDate>Wed, 07 Oct 2026 09:49:31 GMT</pubDate>
-    <description>Asos says people should not engage with the unauthorised notification and says it&#39;ll provide further information.</description>
-    <source url="https://www.bbc.com">BBC Business</source>
-    <category>business</category>
-    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e2d/live/e029b770-c218-11f1-a64c-550be9e3c66b.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Over two years after approval, BMRCL invites global firms for Namma Metro Phase-3 Orange Line consultancy</title>
-    <link>https://www.thehindu.com/news/cities/bangalore/over-two-years-after-approval-bmrcl-invites-global-firms-for-namma-metro-phase-3-orange-line-consultancy-bengaluru/article71554482.ece</link>
-    <guid isPermaLink="false">1p2p3d6</guid>
-    <pubDate>Wed, 07 Oct 2026 10:03:41 GMT</pubDate>
-    <description>The Phase-3 is expected to alleviate traffic congestion, and will be particularly impactful on heavily congested routes of the Outer Ring Road West, Magadi Road, and other major arterial roads in Bengaluru</description>
-    <source url="https://www.thehindu.com">The Hindu</source>
-    <category>india</category>
-    <media:content url="https://th-i.thgim.com/public/incoming/ea8fii/article71555041.ece/alternates/LANDSCAPE_1200/IMG_6352.jpeg" medium="image"/>
-  </item>
-  <item>
-    <title>Japan beer giants raided over alleged price-fixing cartel</title>
-    <link>https://www.bbc.co.uk/news/articles/cm5yn3592xk9o?at_medium=RSS&amp;at_campaign=rss</link>
-    <guid isPermaLink="false">4wx737</guid>
-    <pubDate>Wed, 07 Oct 2026 09:45:56 GMT</pubDate>
-    <description>Asahi and Kirin confirmed their premises were searched by Japanese competition authorities.</description>
-    <source url="https://www.bbc.com">BBC Business</source>
-    <category>business</category>
-    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/adce/live/8f5568b0-c21f-11f1-b7d8-6f930589c871.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>Why the Election Commission refused Rahul Gandhi’s request to meet</title>
-    <link>https://www.thehindu.com/videos/why-the-election-commission-refused-rahul-gandhis-request-to-meet/article71555099.ece</link>
-    <guid isPermaLink="false">5pnj6x</guid>
-    <pubDate>Wed, 07 Oct 2026 10:00:25 GMT</pubDate>
-    <description>The Election Commission of India has responded to the INDIA bloc’s protest in Delhi, saying the Opposition’s request for a meeting outside the Commission’s headquarters was unusual and could not be accepted under established procedures.</description>
-    <source url="https://www.thehindu.com">The Hindu</source>
-    <category>india</category>
-    <media:content url="https://th-i.thgim.com/public/incoming/9tamcc/article71555090.ece/alternates/LANDSCAPE_1200/_u.s.%20iran%20thumb.png" medium="image"/>
-  </item>
-  <item>
-    <title>দুই বছর পর পায়রা বন্দরে ভিড়েছে পণ্যবাহী জাহাজ</title>
-    <link>https://www.prothomalo.com/business/economics/p4xmlyek33</link>
-    <guid isPermaLink="false">90i3rm</guid>
-    <pubDate>Wed, 07 Oct 2026 09:07:16 GMT</pubDate>
-    <description>আজ সকাল ১০টায় বন্দরের জন্য কেনা ৫টি কার্গো হ্যান্ডলিং যন্ত্রপাতি নিয়ে চীনের পতাকাবাহী জাহাজ ‘ফান ঝউ-৬’ সরাসরি প্রথম টার্মিনালে নোঙর করেছে।</description>
-    <source url="https://www.prothomalo.com">Prothom Alo</source>
-    <category>bangladesh</category>
-    <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/bctoxbo4/patuakhalidh123820261007kalapara-pic-5-07.10.2026.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>১০২ বছর বয়সে মারা গেছেন অস্কারজয়ী অভিনেত্রী ইভা মেরি সেইন্ট</title>
-    <link>https://www.prothomalo.com/entertainment/hollywood/mqhjrehra2</link>
-    <guid isPermaLink="false">1mnj6dx</guid>
-    <pubDate>Wed, 07 Oct 2026 09:05:38 GMT</pubDate>
-    <description>হলিউডের স্বর্ণযুগের অন্যতম স্মরণীয় অভিনেত্রী ইভা মেরি সেইন্ট মারা গেছেন। ‘অন দ্য ওয়াটারফ্রন্ট’ ও ‘নর্থ বাই নর্থওয়েস্ট’-এর মতো কালজয়ী ছবিতে অভিনয় করা এই অস্কারজয়ী তারকার বয়স হয়েছিল ১০২ বছর। গতকাল মঙ্গলবার লস অ্যাঞ্জেলেসে নিজের বাড়িতে তাঁর স্বাভাবিক মৃত্যু হয়।…</description>
-    <source url="https://www.prothomalo.com">Prothom Alo</source>
-    <category>bangladesh</category>
-    <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/e3bp2mkj/720ebe37f94a82913a1bc2194503b4d2-3-hi.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>নেটওয়ার্কের বাইরে থাকলেও যোগাযোগ, স্যাটেলাইট-টু-মোবাইল সেবা চালু বাংলালিংকের</title>
-    <link>https://www.prothomalo.com/bangladesh/ubynko08og</link>
-    <guid isPermaLink="false">7rybpu</guid>
-    <pubDate>Wed, 07 Oct 2026 09:04:56 GMT</pubDate>
-    <description>স্টারলিংকের সঙ্গে অংশীদারত্বে স্যাটেলাইট-টু-মোবাইল সেবা চালু করেছে বাংলালিংক। নেটওয়ার্কের বাইরে থাকা দুর্গম ও গভীর সমুদ্র এলাকাতেও এ সেবায় যোগাযোগ রাখা যাবে।</description>
-    <source url="https://www.prothomalo.com">Prothom Alo</source>
-    <category>bangladesh</category>
-    <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/ckar5mgh/layout-1600x1067-1.png" medium="image"/>
-  </item>
-  <item>
-    <title>Pakistan security forces kill 18 terrorists in Khyber Pakhtunkhwa, Balochistan</title>
-    <link>https://www.thehindu.com/news/international/pakistan-security-forces-kill-several-terrorists-in-khyber-pakhtunkhwa-balochistan/article71555079.ece</link>
-    <guid isPermaLink="false">1fkijw3</guid>
-    <pubDate>Wed, 07 Oct 2026 09:57:18 GMT</pubDate>
-    <description>According to Radio Pakistan, the security forces “killed 13 Fitna al-Khawarij terrorists” during an intelligence-based operation in North Waziristan district of Khyber Pakhtunkhwa.</description>
-    <source url="https://www.thehindu.com">The Hindu</source>
-    <category>india</category>
-    <media:content url="https://th-i.thgim.com/public/news/national/s9nody/article71555089.ece/alternates/LANDSCAPE_1200/IMG_Pakistan_Muharram_2_1_PND79E9M.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>২৬ মাস পর কবর থেকে তোলা হলো সেলিম খান ও তাঁর ছেলের লাশ</title>
-    <link>https://www.prothomalo.com/bangladesh/district/60jqbap90y</link>
-    <guid isPermaLink="false">h7p2w7</guid>
-    <pubDate>Wed, 07 Oct 2026 09:01:13 GMT</pubDate>
-    <description>জুলাই গণ–অভ্যুত্থানের সময় জনতার পিটুনিতে মারা যাওয়া চাঁদপুরের আলোচিত সাবেক ইউপি চেয়ারম্যান সেলিম খান ও তাঁর ছেলে চিত্রনায়ক শান্ত খানের লাশ কবর থেকে তোলা হয়েছে।</description>
-    <source url="https://www.prothomalo.com">Prothom Alo</source>
-    <category>bangladesh</category>
-    <media:content url="https://media.prothomalo.com/prothomalo-bangla/2026-10-07/invjdwgh/ChandpurDH.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>&quot;I See PM Modi As Avatar Of Vishnu&quot;: Bhutanese PM Tshering Tobgay</title>
-    <link>https://www.ndtv.com/india-news/i-see-pm-modi-as-avatar-of-vishnu-bhutanese-pm-tshering-tobgay-12150397#publisher=newsstand</link>
-    <guid isPermaLink="false">184h88d</guid>
-    <pubDate>Wed, 07 Oct 2026 09:31:00 GMT</pubDate>
-    <description>The Bhutanese PM praises PM Modi&#39;s 25 years of continuous service as head of the government.</description>
-    <source url="https://www.ndtv.com">NDTV</source>
-    <category>india</category>
-    <media:content url="https://c.ndtvimg.com/2018-12/slsocimo_pm-modi-and-lotay-tshering_625x300_28_December_18.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720" medium="image"/>
-  </item>
-  <item>
-    <title>Noel Gallagher and Susan Sarandon among celebrities to sign Drumcree march letter</title>
-    <link>https://www.bbc.co.uk/news/articles/cxm237q5y9z1o?at_medium=RSS&amp;at_campaign=rss</link>
-    <guid isPermaLink="false">6ofp5b</guid>
-    <pubDate>Wed, 07 Oct 2026 09:43:38 GMT</pubDate>
-    <description>The letter, addressed to NI Secretary Sir Chris Bryant, calls on an international mediator to be appointed to find a resolution to the parade dispute.</description>
-    <source url="https://www.bbc.com">BBC Entertainment</source>
-    <category>entertainment</category>
-    <media:content url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa45/live/49bdf3c0-c225-11f1-b7d8-6f930589c871.png" medium="image"/>
-  </item>
-  <item>
-    <title>Hotels, Cabs And Shuttle: Services At Navi Mumbai Airport Get A Boost</title>
-    <link>https://www.ndtv.com/india-news/hotels-cabs-and-shuttle-services-at-navi-mumbai-airport-get-a-boost-12150344#publisher=newsstand</link>
-    <guid isPermaLink="false">kkv84d</guid>
-    <pubDate>Wed, 07 Oct 2026 09:27:49 GMT</pubDate>
-    <description>Navi Mumbai International Airport (NMIA) is strengthening its public transport and ground mobility infrastructure ahead of the Winter Schedule 2026-27.</description>
-    <source url="https://www.ndtv.com">NDTV</source>
-    <category>india</category>
-    <media:content url="https://c.ndtvimg.com/2026-10/7429bsr4_navi-mumbai_625x300_07_October_26.jpeg" medium="image"/>
-  </item>
-  <item>
-    <title>Hyderabad gets a new art space as ChampaTree expands beyond Delhi</title>
-    <link>https://www.thehindu.com/entertainment/art/hyderabad-gets-a-new-art-space-as-champatree-expands-beyond-delhi/article71536351.ece</link>
-    <guid isPermaLink="false">1t3996v</guid>
-    <pubDate>Wed, 07 Oct 2026 09:50:15 GMT</pubDate>
-    <description>Housed within Jubilee Hills furniture showroom Artyk, the space brings together contemporary art and design while allowing visitors to see works in a more domestic setting</description>
-    <source url="https://www.thehindu.com">The Hindu</source>
-    <category>india</category>
-    <media:content url="https://th-i.thgim.com/public/incoming/42a8gc/article71554904.ece/alternates/LANDSCAPE_1200/champa1.jpg" medium="image"/>
-  </item>
-  <item>
-    <title>DMK&#39;s U-Turn On Rahul Gandhi&#39;s Delhi Protest March Against Gyanesh Kumar</title>
-    <link>https://www.ndtv.com/india-news/dmks-u-turn-on-rahul-gandhis-delhi-march-protest-against-chief-election-commissioner-gyanesh-kumar-12150432#publisher=newsstand</link>
-    <guid isPermaLink="false">16id449</guid>
-    <pubDate>Wed, 07 Oct 2026 09:26:40 GMT</pubDate>
-    <description>DMK spokesperson Saravanan Annadurai questioned Rahul Gandhi&#39;s stance on the deletions made through the SIR process in Tamil Nadu. A day later, the party changed its tune, saying this government doesn&#39;t want Rahul Gandhi to protest against Gyanesh Kumar.</description>
-    <source url="https://www.ndtv.com">NDTV</source>
-    <category>india</category>
-    <media:content url="https://c.ndtvimg.com/2026-10/bfe7iuus_rahul-gandhi_625x300_07_October_26.jpeg" medium="image"/>
-  </item>
-  <item>
-    <title>Government Order dropping six Water Metro terminals in Keralam’s Kochi draws flak</title>
-    <link>https://www.thehindu.com/news/national/kerala/government-order-dropping-six-water-metro-terminals-in-keralams-kochi-draws-flak/article71552649.ece</link>
-    <guid isPermaLink="false">1vir10x</guid>
-    <pubDate>Wed, 07 Oct 2026 09:48:59 GMT</pubDate>
-    <description>Critics say the decision to drop at least two of the six terminals will affect the intended water transport connectivity to places located far away from Kochi city. The terminals that have been dropped are Thevara, Aster, Amrita, Kothad, Cheriyamthuruth, and…</description>
-    <source url="https://www.thehindu.com">The Hindu</source>
-    <category>india</category>
-    <media:content url="https://th-i.thgim.com/public/incoming/m84k5t/article71553079.ece/alternates/LANDSCAPE_1200/80968_18_1_2025_18_49_16_3_NIT_5778.JPG" medium="image"/>
-  </item>
-  <item>
-    <title>Tamil Nadu CM Vijay inaugurates Aavin annex laboratory at Madhavaram Dairy unit</title>
-    <link>https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-cm-vijay-inaugurates-aavin-annex-laboratory-at-madhavaram-dairy-unit/article71554776.ece</link>
-    <guid isPermaLink="false">3wdfx</guid>
-    <pubDate>Wed, 07 Oct 2026 09:48:48 GMT</pubDate>
-    <description>The annexure lab was constructed at a cost of ₹2.23 crore and will conduct drinking water tests.</description>
-    <source url="https://www.thehindu.com">The Hindu</source>
-    <category>india</category>
-    <media:content url="https://th-i.thgim.com/public/news/national/tamil-nadu/wk4k6y/article71554983.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-10-07%20at%202.45.39%20PM.jpeg" medium="image"/>
-  </item>
-  <item>
-    <title>&#39;&#39;Retro&#39; was mokka film&#39;: Mysskin’s blunt take on Karthik Subbaraj’s movie</title>
-    <link>https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/honestly-i-felt-retro-was-mokka-film-mysskins-blunt-take-on-karthik-subbarajs-movie-at-dorothy-success-meet/articleshow/134762513.cms</link>
-    <guid isPermaLink="false">1dou9xs</guid>
-    <pubDate>Wed, 07 Oct 2026 10:03:25 GMT</pubDate>
-    <description>Karthik Subbaraj&#39;s impressive film &#39;Dorothy&#39; has sparked celebrations following its warm reception. In contrast, Mysskin expressed disappointment with &#39;Retro&#39;, criticizing its execution. However, he commended the performances of rising stars Rishikanth and Sa…</description>
-    <source url="https://timesofindia.indiatimes.com">TOI Entertainment</source>
-    <category>entertainment</category>
-    <media:content url="https://static.toiimg.com/photo/msid-134762572,imgsize-114233.cms" medium="image"/>
+    <media:content url="https://s.france24.com/media/display/7bb428b0-c23c-11f1-84ed-13e372f41e70/w:1024/p:16x9/EN-20261007-120904-121011-CS.jpg" medium="image"/>
   </item>
 </channel>
 </rss>
